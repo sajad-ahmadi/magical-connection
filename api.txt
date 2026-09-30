@@ -1,0 +1,175 @@
+=== Magical Connection — HTTP API ===
+Contributors: code art
+Requires at least: 5.8
+Tested up to: 6.7
+Requires PHP: 7.4
+Stable tag: 1.0.0
+License: GPLv2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+
+A standalone PHP API that runs on YOUR OWN remote server — not a third-party service. No external requests are made by this plugin.
+
+== What Is This API? ==
+
+The **Magical Connection HTTP API** is a small, self-contained PHP application that you install on **your own remote server** (the destination server where you want to store files).
+
+It is **not** a third-party service. It is **not** hosted by us. It does **not** connect to any server controlled by us or anyone else.
+
+You download it, you install it on your server, and you control it completely.
+
+= One-line summary =
+
+An optional self-hosted REST endpoint that lets Magical Connection upload files over HTTP instead of FTP.
+
+== Why Does It Exist? ==
+
+Some hosting environments block or restrict FTP ports (21/22) due to firewalls, shared hosting policies, or security rules. In those cases, FTP-based file transfers fail even though the destination server is perfectly reachable over HTTP/HTTPS.
+
+The HTTP API solves this by providing a simple HTTP endpoint on the destination server that accepts file uploads over standard `POST` requests — the same way a web browser submits a form.
+
+You only need it if you want to use the **HTTP** connection type. If you use **FTP**, you don't need the API at all.
+
+== Is It Required? ==
+
+**No.**
+
+The plugin works with **two independent connection types**:
+
+* **FTP** — Standard FTP or FTPS connection. No API needed.
+* **HTTP** — Uses the HTTP API file. Requires one-time installation on the destination server.
+
+You can use FTP, HTTP, or both. It's entirely your choice.
+
+== Does This Plugin Make External Requests? ==
+
+**No.**
+
+* The plugin does **not** phone home.
+* The plugin does **not** send telemetry, analytics, or usage data.
+* The plugin does **not** contact our servers or any third-party service.
+* The plugin does **not** load remote fonts, scripts, or styles from external CDNs.
+
+Every HTTP request made by the plugin goes to **one of two destinations you configured**:
+
+1. Your own WordPress site (`admin-ajax.php`) — for plugin operations.
+2. Your own remote server (via FTP or the HTTP API) — for file transfers.
+
+Nothing else.
+
+= What Is The "api key" Field? =
+
+When you create an HTTP connection, the plugin generates a **random token** (like `crypto.randomUUID()` in the browser). This token acts as a shared secret between your WordPress site and your remote server.
+
+* The token is stored in your WordPress database (in the connection settings).
+* The same token must be pasted into the API config file on your remote server.
+* Every HTTP request from WordPress to the remote server includes this token.
+* The remote server checks the token before accepting any file upload.
+
+This prevents unauthorized parties from uploading files to your server even if they discover the API URL.
+
+= How Does The API Authenticate Requests? =
+
+The API uses **a shared secret token** approach:
+
+1. WordPress sends the token in the request (via POST body or header).
+2. The API compares it to the token stored in its `config.php` file.
+3. If they match, the request is processed.
+4. If they don't match, the request is rejected with `403 Forbidden`.
+
+There is no database, no user accounts, no sessions. Just one token per connection.
+
+= Where Is The API Hosted? =
+
+**On your own server.**
+
+You download `http-api.zip` from the plugin, upload it to your destination server (typically inside `public_html/`), and extract it. That's it.
+
+Your WordPress site then talks directly to that folder — **server-to-server**, with no intermediaries.
+
+= How Do I Know It's Safe? =
+
+The API is **plain, readable PHP** — no obfuscation, no compiled binaries, no hidden behavior. You can open every file and read exactly what it does. It is licensed under GPLv2+ like the rest of the plugin.
+
+The API:
+
+* Only accepts requests carrying the correct token.
+* Only writes files to the folder it was installed in.
+* Only serves the specific endpoints the plugin needs.
+* Does not connect to any external server.
+* Does not log or transmit any data anywhere.
+
+= What Files Does It Include? =
+
+A typical `http-api.zip` contains:
+
+* `index.php` — Entry point, routes incoming requests.
+* `upload.php` — Handles file uploads.
+* `delete.php` — Handles file deletion (for restore operations).
+* `README.txt` — Installation notes.
+
+All files are PHP, GPLv2+, and human-readable.
+
+= How Do I Install It? =
+
+1. In WordPress, create an HTTP connection and copy the generated **API Key**.
+2. Click **Download API** in the plugin to get `http-api.zip`.
+3. Connect to your destination server via cPanel, FTP, or SSH.
+4. Upload `http-api.zip` to the `public_html/` directory.
+5. Extract it. You should now see a folder named `http-api/`.
+6. Open `http-api/index.php` and paste your API Key.
+7. Save the file. Set permissions to `644`.
+9. You should see a success response.
+
+That's the entire installation.
+
+= What If I Don't Want To Use HTTP? =
+
+Simply use **FTP** connections. FTP requires no API file at all. You just enter your FTP credentials (IP, port, username, password) and start transferring.
+
+Most users prefer FTP if their host allows it. HTTP is an alternative for environments where FTP ports are blocked.
+
+= Can I Delete The API? =
+
+Yes. If you stop using HTTP connections, you can delete the `http-api/` folder from your remote server. Your files already transferred stay where they are. WordPress simply won't be able to use HTTP connections until you reinstall it.
+
+= Can I Audit The API Source? =
+
+Yes. Every file is plain PHP. Open them in any text editor. Nothing is minified or obfuscated. The entire source is included in the plugin's SVN repository and, if you prefer, on GitHub.
+
+= Compliance Notes For WordPress.org =
+
+This plugin complies with the WordPress.org plugin guidelines:
+
+* No external service is contacted. All HTTP requests go to servers you own and configure.
+* No tracking, telemetry, or analytics of any kind.
+* No remote code loading. All JavaScript and CSS are bundled locally.
+* No external fonts. All fonts are bundled with the plugin.
+* All libraries used (Vue.js, Vue Router, Axios, Font Awesome Free) are GPL-compatible (MIT / OFL).
+* Full source code of the Vue frontend is included in the SVN repository.
+* The HTTP API is optional and self-hosted.
+
+= Frequently Asked Questions =
+
+= Is the API a third-party service? =
+No. It is a PHP file you install and run on your own server. You fully control it.
+
+= Does the plugin send my data anywhere? =
+No. The plugin only communicates with (1) your WordPress site, and (2) the remote servers you configured.
+
+= Why is there an API Key? =
+To authenticate requests between your WordPress site and your remote server, so nobody else can upload files to your server.
+
+= Do I need the API if I use FTP? =
+No. FTP requires no API file.
+
+= Can I use SFTP? =
+SFTP support is planned for a future release. Currently, use FTP, FTPS (via your FTP client configuration), or HTTP.
+
+= Is the API updated automatically? =
+No. It has no auto-update mechanism by design. It doesn't contact any server. You update it manually by replacing the folder.
+
+== License ==
+
+This API, like the rest of Magical Connection, is licensed under the GNU General Public License v2.0 or later.
+
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
