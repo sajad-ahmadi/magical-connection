@@ -1,0 +1,728 @@
+.mg-file-scanner-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mg-file-scanner-head .mg-fsh-start {
+    display: flex;
+}
+
+.mg-file-scanner-head .mg-fsh-icon-parent {
+    display: block;
+    padding: 0.3rem;
+    border-radius: 0.45rem;
+    background-color: white;
+    box-shadow: 0 0 6px rgba( 0 , 0 , 0 , 0.15 );
+    position: relative;
+    height: fit-content;
+}
+
+.mg-file-scanner-head .mg-fsh-icon-parent:before {
+    content: " ";
+    position: absolute;
+    width: 0.5rem;
+    height: 0.5rem;
+    display: block;
+    inset: 0;
+    margin: auto -0.25rem auto auto;
+    background-color: #37ff37;
+    border-radius: 50%;
+    box-shadow: 0 0 6px rgba( 55 , 255 , 55 , 0.5 );
+}
+
+.mg-file-scanner-head .mg-fsh-ic {
+    background-color: black;
+    width: 2rem;
+    height: 2rem;
+    display: block;
+}
+
+.mg-file-scanner-head .mg-fsh-title-parent {
+    margin: 0 .75rem 0 0;
+}
+
+.mg-file-scanner-head .mg-section-title {
+    margin: 0 0 0.35rem 0;
+    font-size: 1.3em;
+    display: block;
+    font-weight: 500;
+}
+
+.mg-file-scanner-head .mg-section-subtitle {
+    font-size: 0.8em;
+    display: block;
+    color: #949494;
+    font-weight: 500;
+}
+
+.mg-file-scanner-head .mg-fsh-new-scan-btn {
+    background-color: #3f69ff;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border-radius: .6rem;
+    outline: inherit;
+    border: inherit;
+    font-size: 0.95em;
+    box-shadow: 0 0 0.7rem rgba( 63 , 105 , 255 , 0.5 );
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.mg-fsh-new-scan-btn .mg-nsb-ic {
+    display: block;
+    background-color: white;
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-inline-end: 0.5rem;
+}
+
+.mg-section {
+    background-color: white;
+    box-shadow: 0 0 6px rgba( 0 , 0 , 0, 0.2 );
+    padding: 0.5rem 1rem 1.5rem 1rem;
+    border-radius: 0.5rem;
+    margin: 1.5rem 0;
+}
+
+.mg-section .mg-section-title {
+    margin: 1rem 0.5rem;
+    font-size: 1em;
+    display: block;
+    color: #3b3b3b;
+}
+
+.mgs-sa-ic {
+    display: block;
+    background-color: var(--mgs-primary-color);
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-inline-end: 0.35rem;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+
+.mgs-dt-ic {
+    display: block;
+    width: 1.75rem;
+    height: 1.75rem;
+}
+
+.mgs-fr-ic {
+    display: block;
+    width: 1.35rem;
+    height: 1.35rem;
+}
+
+.mgs-si-docs .mgs-dt-ic , .mgs-fr-docs .mgs-fr-ic {
+    background-color: #007bff;
+}
+
+.mgs-fr-total .mgs-fr-ic {
+    background-color: #007bff;
+}
+
+.mgs-si-images .mgs-dt-ic , .mgs-fr-images .mgs-fr-ic {
+    background-color: #23e123;
+}
+
+.mgs-si-audio .mgs-dt-ic , .mgs-fr-audio .mgs-fr-ic {
+    background-color: #fc2e2e;
+}
+
+.mgs-si-videos .mgs-dt-ic , .mgs-fr-videos .mgs-fr-ic {
+    background-color: #a938fd;
+}
+
+.mgs-si-others .mgs-dt-ic , .mgs-fr-others .mgs-fr-ic {
+    background-color: #FF9E37;
+}
+
+.mg-sas-ic {
+    display: block;
+    background-color: #3b3b3b;
+    width: 0.9rem;
+    height: 0.9rem;
+}
+
+.mgs-ss-ic {
+    display: block;
+    background-color: #fc2e2e;
+    width: 1.1rem;
+    height: 1.1rem;
+}
+
+.mgs-scanning-alert {
+    display: flex;
+    align-items: center;
+    color: var(--mgs-primary-color);
+    font-weight: 500;
+    font-size: .9em;
+}
+
+.mgs-si-ic {
+    display: inline-block;
+    width: 0.9rem;
+    height: 0.9rem;
+    background-color: #666;
+}
+
+.mgs-plugin-wrapper *,
+.mgs-plugin-wrapper *::before,
+.mgs-plugin-wrapper *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.mgs-pm-ic {
+    display: inline-block;
+    width: 0.9rem;
+    height: 0.9rem;
+    background-color: #777;
+}
+
+/* ---------- محتوای اصلی ---------- */
+
+.mgs-dash-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.mgs-title {
+    font-size: 1.375rem;
+    font-weight: 800;
+    color: #333;
+}
+
+.mgs-subtitle {
+    font-size: 0.8125rem;
+    color: #888;
+    margin-top: 0.3125rem;
+}
+
+.mgs-header-left {
+    display: flex;
+    gap: 0.625rem;
+}
+
+/* دکمه‌ها */
+.mgs-btn {
+    font-family: inherit;
+    font-size: 0.875rem;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.mgs-start-new-scan-btn {
+    background: var( --mgs-primary-gradient-color );
+    color: white;
+    border: none;
+    padding: 0.75rem 1.25rem;
+}
+
+.mgs-start-new-scan-btn .mgs-sns-ic {
+    background-color: white;
+    width: 0.875rem;
+    height: 0.875rem;
+    display: block;
+}
+
+.mgs-btn-primary:hover {
+    background: var( --mgs-primary-gradient-color-hover );
+    transform: translateY(-0.125rem);
+}
+
+.mgs-btn-outline {
+    background: white;
+    border: 1px solid #ddd;
+    color: #333;
+    padding: 0.625rem 1rem;
+}
+
+.mgs-btn-outline:hover {
+    background: #f5f5f5;
+}
+
+.mgs-btn-danger {
+    background: #fff5f5;
+    border: 1px solid #ffcccc;
+    color: #d63031;
+    padding: 0.625rem 1rem;
+}
+
+.mgs-btn-danger:hover {
+    background: #ffe5e5;
+}
+
+/* ---------- کارت‌ها ---------- */
+.mgs-card {
+    background: #ffffff;
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    box-shadow: 0 0.25rem 0.9375rem rgba(0, 0, 0, 0.04);
+    border: 1px solid #f0f0f0;
+    margin-bottom: 1.25rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.mgs-card:hover {
+    transform: translateY(-0.1875rem);
+    box-shadow: 0 0.5rem 1.5625rem rgba(0, 0, 0, 0.08);
+}
+
+/* ---------- بخش پیشرفت ---------- */
+.mgs-progress-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #f1f1f1;
+    padding-bottom: 1.3rem;
+    margin-bottom: 1.3rem;
+}
+
+.mgs-progress-title i {
+    color: var(--mgs-primary-color);
+    margin-left: 0.625rem;
+}
+
+.mgs-progress-title h2 {
+    font-size: 0.9375rem;
+    font-weight: 700;
+    color: #444;
+}
+
+.mgs-progress-actions {
+    display: flex;
+    gap: 0.625rem;
+}
+
+.mgs-progress-body {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1.875rem;
+}
+
+.mgs-progress-stats {
+    display: flex;
+    flex-direction: column;
+    gap: 0.9375rem;
+    padding-top: 0.625rem;
+}
+
+.mgs-stat-item {
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+    font-size: 0.8125rem;
+    color: #666;
+}
+
+.mgs-stat-item i {
+    width: 1.25rem;
+    color: #888;
+}
+
+.mgs-stat-item span {
+    font-weight: 600;
+    color: #333;
+}
+
+.mgs-progress-main {
+    padding: 0.625rem 0;
+}
+
+.mgs-percentage {
+    font-size: 1.75rem;
+    font-weight: 800;
+    color: var( --mgs-primary-color );
+    margin-bottom: 0.9375rem;
+}
+
+.mgs-progress-bar-container {
+    background: #e9ecef;
+    height: 0.5rem;
+    border-radius: 0.625rem;
+    overflow: hidden;
+    margin-bottom: 0.9375rem;
+}
+
+.mgs-progress-bar {
+    width: 53%;
+    height: 100%;
+    background: var(--mgs-primary-gradient-color);
+    border-radius: 0.625rem;
+    position: relative;
+    animation: mgsProgressGrow 3s ease-out forwards;
+}
+
+.mgs-progress-bar::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent);
+    animation: mgsShimmer 1.5s infinite;
+}
+
+@keyframes mgsProgressGrow {
+    from { width: 0; }
+    to { width: 53%; }
+}
+
+@keyframes mgsShimmer {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(100%); }
+}
+
+.mgs-progress-path {
+    font-family: monospace;
+    direction: ltr;
+    text-align: left;
+    background: #f8f9fa;
+    padding: 0.5rem 0.9375rem;
+    border-radius: 0.375rem;
+    font-size: 0.8125rem;
+    color: #333;
+    margin-bottom: 0.9375rem;
+}
+
+.mgs-progress-meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.75rem;
+    color: #777;
+}
+
+.mgs-progress-meta span {
+    display: flex;
+    align-items: center;
+    gap: 0.3125rem;
+}
+
+.mgs-fast-scan-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid #f1f1f1;
+    align-items: center;
+}
+
+.mgs-fast-scan-switch {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.mgs-fast-scan-text {
+    font-size: 0.9375rem;
+    font-weight: 700;
+    color: #444;
+}
+
+/* ---------- خلاصه ---------- */
+.mgs-summary-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0.9375rem;
+    margin-top: 1.125rem;
+}
+
+.mgs-summary-item {
+    background: #fcfcfc;
+    border: 1px solid #f5f5f5;
+    border-radius: 0.625rem;
+    padding: 0.9375rem;
+    display: flex;
+    align-items: center;
+    gap: 0.9375rem;
+    transition: all 0.3s ease;
+}
+
+.mgs-summary-item:hover {
+    background: white;
+    border-color: #e0e0e0;
+    box-shadow: 0 0.25rem 0.625rem rgba(0,0,0,0.05);
+    transform: scale(1.02);
+}
+
+.mgs-icon-box {
+    width: 2.8125rem;
+    height: 2.8125rem;
+    border-radius: 0.625rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.125rem;
+}
+
+.mgs-icon-blue { background: #eaf4ff; }
+.mgs-icon-green { background: #e6fff0; }
+.mgs-icon-red { background: #ffeef0; }
+.mgs-icon-purple { background: #f4eaff; }
+.mgs-icon-gray { background: #FF9E371F }
+
+.mgs-summary-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.mgs-summary-info span {
+    font-size: 0.75rem;
+    color: #666;
+}
+
+.mgs-summary-info strong {
+    font-size: 1.125rem;
+    color: #333;
+    font-weight: 800;
+    margin-top: 0.125rem;
+}
+
+.mgs-summary-info small {
+    font-size: 0.6875rem;
+    color: #999;
+    font-weight: 500;
+}
+
+.mgs-file-details-card {
+    background: #ffffff;
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    box-shadow: 0 0.25rem 0.9375rem rgba(0, 0, 0, 0.04);
+    border: 1px solid #f0f0f0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.mgs-file-details-card:hover {
+    transform: translateY(-0.1875rem);
+    box-shadow: 0 0.5rem 1.5625rem rgba(0, 0, 0, 0.08);
+}
+
+/* ---------- هدر کارت ---------- */
+.mgs-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #f1f1f1;
+    padding-bottom: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.mgs-card-title {
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: #333;
+    margin: 0;
+}
+
+.mgs-header-subtitle {
+    font-size: 0.875rem;
+    color: #888;
+}
+
+.mgs-total-count {
+    color: var(--mgs-primary-color);
+    font-weight: 700;
+}
+
+/* ---------- جدول ---------- */
+.mgs-table-wrapper {
+    overflow-x: auto;
+}
+
+.mgs-file-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.875rem;
+}
+
+.mgs-file-table thead tr {
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.mgs-file-table th {
+    text-align: right;
+    padding: 0.875rem;
+    font-weight: 600;
+    color: #666;
+    font-size: 0.8125rem;
+}
+
+.mgs-file-table td {
+    padding: 1rem;
+    color: #444;
+    border-bottom: 1px solid #f1f1f1;
+    vertical-align: middle;
+}
+
+.mgs-file-table tbody tr {
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.mgs-file-table tbody tr:hover {
+    background-color: #fcfcfc;
+}
+
+/* ردیف جمع کل */
+.mgs-total-row {
+    background-color: #f9f9f9;
+    border-top: 2px solid #e5e5e5;
+    font-weight: 700;
+}
+
+.mgs-total-row:hover {
+    background-color: #f0f0f0;
+}
+
+/* ---------- استایل نوع فایل ---------- */
+.mgs-file-type {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.mgs-file-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 0.625rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.125rem;
+    flex-shrink: 0;
+}
+
+.mgs-icon-png {
+    background: #e6fff0;
+    color: #28a745;
+}
+
+.mgs-icon-total {
+    background: #eaf4ff;
+    color: #007bff;
+}
+
+.mgs-file-name {
+    font-weight: 600;
+    color: #333;
+}
+
+/* ---------- اعداد و درصدها ---------- */
+.mgs-count {
+    font-size: 1rem;
+    color: #333;
+}
+
+.mgs-percent {
+    font-size: 0.75rem;
+    color: #888;
+    margin-right: 0.25rem;
+}
+
+.mgs-size {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #333;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+/* ---------- نوارهای پیشرفت (با انیمیشن) ---------- */
+.mgs-bar-container {
+    background: #f0f0f1;
+    height: 0.4375rem;
+    border-radius: 0.625rem;
+    overflow: hidden;
+    width: 8rem;
+    max-width: 100%;
+}
+
+.mgs-bar {
+    height: 100%;
+    border-radius: 0.625rem;
+    position: relative;
+    /* انیمیشن رشد نوارها */
+    animation: mgsBarGrow 1.5s ease-out forwards;
+}
+
+.mgs-bar-blue {
+    background: var(--mgs-primary-gradient-color);
+}
+
+.mgs-bar-green {
+    background: linear-gradient(90deg, #28a745, #6fcf97);
+}
+
+/* انیمیشن درخشش روی نوارها */
+.mgs-bar::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent);
+    animation: mgsShimmer 2s infinite;
+}
+
+@keyframes mgsBarGrow {
+    from { width: 0; }
+}
+
+@keyframes mgsShimmer {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(100%); }
+}
+
+/* ---------- ریسپانسیو برای موبایل و تبلت ---------- */
+@media (max-width: 900px) {
+    .mgs-menu-item {
+        justify-content: center;
+        padding: 0.625rem;
+    }
+    .mgs-menu-item span, .mgs-menu-title, .mgs-badge, .mgs-user-badge {
+        display: none;
+    }
+    .mgs-progress-body {
+        grid-template-columns: 1fr;
+    }
+    .mgs-summary-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* ---------- تنظیمات بسیار ملایم برای مانیتورهای بزرگ (بدون بزرگ کردن فونت‌ها) ---------- */
+@media (min-width: 1401px) {
+
+    /* فاصله بین کارت‌ها کمی بیشتر */
+    .mgs-card {
+        margin-bottom: 1.875rem;
+    }
+
+    /* فقط آیکون‌ها و باکس‌های خلاصه کمی جادارتر */
+    .mgs-summary-item {
+        padding: 1.125rem;
+        gap: 1.125rem;
+    }
+
+    .mgs-icon-box {
+        width: 3.125rem;
+        height: 3.125rem;
+        font-size: 1.25rem;
+    }
+}

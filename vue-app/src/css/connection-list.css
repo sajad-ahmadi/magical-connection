@@ -1,0 +1,294 @@
+.mgs-connection-list .mgs-dash-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 20px 24px;
+    border-radius: 12px;
+    border: 1px solid #f0f0f0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
+    margin-bottom: 24px;
+}
+
+.mgs-connection-list .mgs-title {
+    font-size: 1.375rem;
+    font-weight: 800;
+    color: #333;
+}
+
+.mgs-connection-list .mgs-header-left {
+    display: flex;
+    gap: 0.625rem;
+}
+
+.mgs-connection-list .mgs-add-new-connection-btn {
+    background: var( --mgs-primary-gradient-color );
+    color: white;
+    border: none;
+    padding: 0.75rem 1.25rem;
+}
+
+.mgs-connection-list .mgs-add-new-connection-btn .mgs-sns-ic {
+    background-color: white;
+    width: 1.35rem;
+    height: 1.35rem;
+    display: block;
+}
+
+.mgs-connection-list .mgs-btn-primary:hover {
+    background: var( --mgs-primary-gradient-color-hover );
+    transform: translateY(-0.125rem);
+}
+
+.mgs-connection-list .mg-setting-body-wrapper .mg-connection-list {
+    padding: 0;
+    margin-top: 3rem;
+    flex-grow: 1;
+}
+
+.mgs-connection-list .mg-setting-body-wrapper .mg-connection-item {
+    background-color: white;
+    border: 1px solid #f0f0f0;
+    display: flex;
+    border-radius: 0.8rem;
+    padding: 1.5rem;
+    gap: 2.5rem;
+    margin-bottom: 1rem;
+    transition: all 0.3s ease;
+    animation: mgsFadeIn 0.5s ease forwards;
+}
+
+.mgs-connection-list .mg-setting-body-wrapper .mg-connection-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.mgs-connection-list .mg-setting-body-wrapper .mg-ci-right {
+    flex-basis: 100%;
+}
+
+.mgs-connection-list .mg-setting-body-wrapper .mg-ci-left {
+    padding: 0 1.4rem 0 0;
+    border-inline-start: .06rem solid #dedddd;
+    display: flex;
+    flex-direction: column;
+}
+
+.mgs-connection-list .mg-setting-body-wrapper .mg-ci-action-btn {
+    border: 0.0625rem solid #f0f0f0;
+    padding: 0.3rem;
+    border-radius: 0.35rem;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.mgs-connection-list .mg-setting-body-wrapper .mg-ci-action-btn:hover {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    transform: translateY(-3px);
+}
+
+.mgs-connection-list .mg-setting-body-wrapper .mg-ci-action-btn:hover .mg-ci-action-icon {
+    transform: scale(1.01);
+}
+
+.mgs-connection-list .mg-setting-body-wrapper .mg-ci-action-btn:not(:last-of-type) {
+    margin-bottom: 0.8rem;
+}
+
+.mgs-connection-list .mg-setting-body-wrapper .mg-ci-action-icon {
+    width: 1.25rem;
+    height: 1.25rem;
+    display: block;
+    background-color: #343434;
+    transition: 0.2s;
+}
+
+.mgs-connection-list .mg-setting-body-wrapper .mg-ci-action-icon.mg-delete-icon {
+    background-color: red;
+}
+
+.mgs-connection-list .mg-setting-body-wrapper .mg-cir-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.8rem;
+}
+
+.mgs-connection-list .mg-setting-body-wrapper .mg-cir-internet-icon-parent {
+    display: block;
+    border-radius: 50%;
+    padding: 0.15rem;
+    border: 0.0625rem solid #3f69ff;
+    background-color: rgba( 63 , 105 , 255 , 0.1 );
+}
+
+.mgs-connection-list .mg-setting-body-wrapper .mg-cir-hosts {
+    background-color: #3f69ff;
+    width: 1.85rem;
+    height: 1.85rem;
+    display: block;
+}
+
+.mgs-connection-list .mg-setting-body-wrapper .mg-connection-status {
+    display: none;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.mgs-connection-list .mg-setting-body-wrapper .mg-connection-item-status-wrapper.success .mg-connection-status.success {
+    display: flex;
+}
+
+.mgs-connection-list .mg-setting-body-wrapper .mg-connection-item-status-wrapper.checking .mg-connection-status.checking {
+    display: flex;
+}
+
+.mgs-connection-list .mg-setting-body-wrapper .mg-connection-item-status-wrapper.interrupted .mg-connection-status.interrupted {
+    display: flex;
+}
+
+.mgs-connection-list .mg-setting-body-wrapper .mg-connection-item-status-wrapper.loading .mg-connection-status.loading {
+    display: flex;
+}
+
+.mgs-connection-list .mg-setting-body-wrapper .mg-cs-text {
+    display: block;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.mgs-connection-list .mg-setting-body-wrapper .mg-cs-icon {
+    display: block;
+    width: 1.3rem;
+    height: 1.3rem;
+}
+
+.mgs-connection-list .mg-setting-body-wrapper .mg-connection-status.success .mg-cs-text {
+    color: #32e25e;
+}
+
+.mgs-connection-list .mg-setting-body-wrapper .mg-connection-status.success .mg-cs-icon {
+    background-color: #32e25e;
+}
+
+.mgs-connection-list .mg-setting-body-wrapper .mg-connection-status.checking .mg-cs-text {
+    color: #ff7e22;
+}
+
+.mgs-connection-list .mg-setting-body-wrapper .mg-connection-status.checking .mg-cs-icon {
+    background-color: #ff7e22;
+    animation: spin 4s linear infinite;
+}
+
+.mgs-connection-list .mg-setting-body-wrapper .mg-connection-status.interrupted .mg-cs-text {
+    color: #fc2e2e;
+}
+
+.mgs-connection-list .mg-setting-body-wrapper .mg-connection-status.interrupted .mg-cs-icon {
+    background-color: #fc2e2e;
+}
+
+.mgs-connection-list .mg-setting-body-wrapper .mg-connection-body {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+
+.mgs-connection-list .mg-connection-item-status-wrapper {
+    position: absolute;
+    top: -50px;
+    margin-inline-start: -15px;
+}
+
+.mgs-connection-list .mg-setting-body-wrapper .mg-cb-row {
+    flex-grow: 0;
+    max-width: 16.25rem;
+    min-width: 11rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.mgs-connection-list .mg-setting-body-wrapper .mg-cb-row-title {
+    font-weight: bold;
+    color: #5e5e5e;
+    display: block;
+    font-size: 0.85em;
+    margin-bottom: 0.85rem;
+    text-align: center;
+}
+
+.mgs-connection-list .mg-setting-body-wrapper .mg-cb-row-text {
+    font-weight: bold;
+    color: #383838;
+    font-size: 0.95em;
+    display: block;
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: inherit;
+}
+
+.mgs-connection-list .mg-setting-body-wrapper .mg-cb-protocol-item {
+    font-weight: bold;
+    font-size: 0.9em;
+    padding: 0.5rem 0.65rem 0.3rem 1.3rem;
+    border-radius: 0.35rem;
+    margin: auto;
+    width: fit-content;
+    display: none;
+    position: relative;
+}
+
+.mgs-connection-list .mg-setting-body-wrapper .mg-cb-protocols.ftp .mg-cb-protocol-item.ftp {
+    display: block;
+}
+
+.mgs-connection-list .mg-setting-body-wrapper .mg-cb-protocols.http .mg-cb-protocol-item.http {
+    display: block;
+}
+
+.mgs-connection-list .mg-setting-body-wrapper .mg-cb-protocols.ssh .mg-cb-protocol-item.ssh {
+    display: block;
+}
+
+.mgs-connection-list .mg-setting-body-wrapper .mg-cb-protocol-item.ftp {
+    background-color: rgba( 63 , 105 , 255 , 0.1 );
+    color: #3f69ff;
+}
+
+.mgs-connection-list .mg-setting-body-wrapper .mg-cb-protocol-item.http {
+    background-color: rgba( 228 , 48 , 252 , 0.1 );
+    color: #e430fc;
+}
+
+.mgs-connection-list .mg-setting-body-wrapper .mg-cb-protocol-item.ssh {
+    background-color: rgba( 64 , 223 , 225 , 0.1 );
+    color: #40e9e1;
+}
+
+.mgs-connection-list .mg-setting-body-wrapper .mg-cb-protocol-item:before {
+    content: '';
+    width: .4rem;
+    height: .4rem;
+    border-radius: 50%;
+    display: block;
+    inset: 0;
+    margin: auto auto auto .35rem;
+    position: absolute;
+}
+
+.mgs-connection-list .mg-setting-body-wrapper .mg-cb-protocol-item.ftp:before {
+    background-color: #3f69ff;
+}
+
+.mgs-connection-list .mg-setting-body-wrapper .mg-cb-protocol-item.http:before {
+    background-color: #e430fc;
+}
+
+.mgs-connection-list .mg-setting-body-wrapper .mg-cb-protocol-item.ssh:before {
+    background-color: #40e9e1;
+}

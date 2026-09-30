@@ -1,0 +1,183 @@
+.notify-container * {
+    font-family: dana !important;
+}
+
+.notify-container {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    right: 0;
+    margin-inline-start: auto;
+    margin-inline-end: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    z-index: 9999;
+    max-width: 380px;
+}
+
+.notify-container .notify {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 16px 18px;
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 10px 30px rgba(15,23,42,0.12);
+    border-right: 5px solid;
+    position: relative;
+    overflow: hidden;
+    min-width: 320px;
+    animation: slideIn 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.notify-container .notify.hide {
+    animation: slideOut 0.35s ease forwards;
+}
+
+@keyframes slideIn {
+    from { transform: translateX(-120%); opacity: 0; }
+    to   { transform: translateX(0);     opacity: 1; }
+}
+
+@keyframes slideOut {
+    from { transform: translateX(0);     opacity: 1; }
+    to   { transform: translateX(-120%); opacity: 0; }
+}
+
+.notify-container .notify.success { border-color: #10b981; }
+.notify-container .notify.error   { border-color: #ef4444; }
+.notify-container .notify.warning { border-color: #f59e0b; }
+.notify-container .notify.info    { border-color: #3b82f6; }
+
+.notify-container .notify-icon {
+    width: 38px;
+    height: 38px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.notify-container .notify.success .notify-icon { background: linear-gradient(135deg, #34d399, #10b981); }
+.notify-container .notify.error   .notify-icon { background: linear-gradient(135deg, #f87171, #ef4444); }
+.notify-container .notify.warning .notify-icon { background: linear-gradient(135deg, #fbbf24, #f59e0b); }
+.notify-container .notify.info    .notify-icon { background: linear-gradient(135deg, #60a5fa, #3b82f6); }
+
+.notify-container .notify-body {
+    flex: 1;
+    padding-top: 2px;
+}
+
+.notify-container .notify-title {
+    font-size: 14.5px;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 4px;
+}
+
+.notify-container .notify.success .notify-title { color: #047857; }
+.notify-container .notify.error   .notify-title { color: #b91c1c; }
+.notify-container .notify.warning .notify-title { color: #b45309; }
+.notify-container .notify.info    .notify-title { color: #1d4ed8; }
+
+.notify-container .notify-text {
+    font-size: 13px;
+    color: #64748b;
+    line-height: 1.6;
+}
+
+.notify-container .notify-close {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #94a3b8;
+    font-size: 18px;
+    line-height: 1;
+    padding: 2px 4px;
+    border-radius: 6px;
+    transition: background 0.15s, color 0.15s;
+    flex-shrink: 0;
+}
+
+.notify-container .notify-close:hover {
+    background: #f1f5f9;
+    color: #475569;
+}
+
+.notify-container .notify-progress {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 3px;
+    width: 100%;
+    transform-origin: right;
+    animation: progress linear forwards;
+}
+
+.notify-container .notify.success .notify-progress { background: #10b981; }
+.notify-container .notify.error   .notify-progress { background: #ef4444; }
+.notify-container .notify.warning .notify-progress { background: #f59e0b; }
+.notify-container .notify.info    .notify-progress { background: #3b82f6; }
+
+@keyframes progress {
+    from { transform: scaleX(1); }
+    to   { transform: scaleX(0); }
+}
+
+.notify-container .notify.info .notify-icon {
+    position: relative;
+}
+
+.notify-container .notify.info .notify-icon::after {
+    content: '';
+    position: absolute;
+    inset: 4px;
+    border: 2.5px solid rgba(255,255,255,0.35);
+    border-top-color: #fff;
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+.notify-container .preview-section {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    width: 100%;
+    max-width: 420px;
+}
+
+.notify-container .preview-section h2 {
+    font-size: 15px;
+    color: #64748b;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+.notify-container .preview-section .notify {
+    animation: none;
+    min-width: auto;
+    width: 100%;
+}
+
+.notify-container .preview-section .notify-progress { display: none; }
+
+@media (max-width: 480px) {
+    .notify-container {
+        top: 10px;
+        left: 10px;
+        right: 10px;
+        max-width: none;
+    }
+    .notify-container .notify { min-width: auto; }
+}

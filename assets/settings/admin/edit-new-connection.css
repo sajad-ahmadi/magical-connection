@@ -1,0 +1,347 @@
+.mg-setting-body-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    margin-top: 1.5625rem;
+}
+
+.mg-setting-body-wrapper .mg-connection-tester-wrapper {
+    flex-basis: 60%;
+    background-color: white;
+    box-shadow: 0 0 0.15rem rgba( 0 , 0 , 0 , 0.15 );
+    border-radius: 0.5rem;
+    display: block;
+    padding: 0.75rem;
+    height: fit-content;
+}
+
+.mg-setting-body-wrapper .mg-connection-data-wrapper {
+    display: block;
+    flex-basis: 100%;
+    background-color: white;
+    box-shadow: 0 0 0.15rem rgba( 0 , 0 , 0 , 0.15 );
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    height: fit-content;
+}
+
+.mg-connection-tester-wrapper .mg-ct-title {
+    font-size: 1.1em;
+    margin: 1rem auto;
+    display: block;
+    text-align: center;
+}
+
+.mg-connection-tester-wrapper .mg-connection-status-wrapper {
+    margin: 0.67rem;
+}
+
+.mg-connection-tester-wrapper .mg-conn-status-item {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 0.8rem 1.2rem;
+    border-radius: 0.5rem;
+    width: fit-content;
+    margin: auto;
+}
+
+.mg-connection-status-wrapper.success .mg-conn-status-item.success {
+    display: flex;
+}
+
+.mg-connection-status-wrapper.interrupted .mg-conn-status-item.interrupted {
+    display: flex;
+}
+
+.mg-connection-status-wrapper.checking .mg-conn-status-item.checking {
+    display: flex;
+}
+
+.mg-connection-tester-wrapper .mg-cs-ic {
+    display: block;
+    width: 1.45rem;
+    height: 1.45rem;
+}
+
+.mg-connection-tester-wrapper .mg-cs-text {
+    font-size: 0.9em;
+    display: block;
+    font-weight: 500;
+    margin-inline-start: 0.4rem;
+}
+
+.mg-connection-tester-wrapper .mg-conn-status-item.success {
+    background-color: rgba( 33 , 215 , 33 , .1 );
+}
+
+.mg-conn-status-item.success .mg-cs-text {
+    color: #21D721;
+}
+
+.mg-conn-status-item.success .mg-cs-ic {
+    background-color: #21D721;
+}
+
+.mg-connection-tester-wrapper .mg-conn-status-item.interrupted {
+    background-color: rgba( 232 , 24 , 24 , .1 );
+}
+
+.mg-conn-status-item.interrupted .mg-cs-text {
+    color: #E81818FF;
+}
+
+.mg-conn-status-item.interrupted .mg-cs-ic {
+    background-color: #E81818FF;
+}
+
+.mg-connection-tester-wrapper .mg-conn-status-item.checking {
+    background-color: rgba( 255 , 126 , 34 , .1 );
+}
+
+.mg-conn-status-item.checking .mg-cs-text {
+    color: #ff7e22;
+}
+
+.mg-conn-status-item.checking .mg-cs-ic {
+    background-color: #ff7e22;
+}
+
+.mg-conn-status-item .mg-wifi-loader {
+    margin-inline-end: 1rem;
+}
+
+.mg-connection-tester-wrapper .mg-triple-tester-wrapper {
+    padding: 1.5rem;
+    display: block;
+    border-top: .1rem solid rgba(203, 203, 203, 0.16);
+    margin-top: 1.5rem;
+}
+
+.mg-connection-tester-wrapper .mg-ttr {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.mg-connection-tester-wrapper .mg-test-status-circle {
+    display: block;
+    border-radius: 50%;
+    width: 1.1rem;
+    height: 1.1rem;
+    background-color: #eee;
+    transition: background-color 0.15s;
+}
+
+.mg-connection-tester-wrapper .mg-tsc-text {
+    font-size: 0.95rem;
+    font-weight: 500;
+    display: block;
+}
+
+.mg-connection-tester-wrapper .mg-tester-line-gap {
+    content: '';
+    width: 0.25rem;
+    height: 4rem;
+    display: block;
+    background-color: #eee;
+    border-radius: 10rem;
+    margin-inline-start: 0.4rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+
+.mg-connection-tester-wrapper .mg-tt-row.active .mg-test-status-circle {
+    background-color: #17e021;
+    box-shadow: 0 0 0.25rem rgba( 23 , 224 , 33 , 0.8 )
+}
+
+.mg-connection-tester-wrapper .mg-tt-row.active .mg-tester-line-gap {
+    background-color: #17e021;
+}
+
+.mg-connection-tester-wrapper .mg-tt-row.processing .mg-test-status-circle {
+    background-color: #3f69ff;
+    box-shadow: 0 0 0.25rem rgba( 63 , 105 , 255 , 0.8 )
+}
+
+.mg-connection-tester-wrapper .mg-tt-row.processing .mg-tester-line-gap {
+    background-color: #3f69ff;
+}
+
+.mg-connection-tester-wrapper .mg-start-test-connection-btn {
+    display: flex;
+    width: fit-content;
+    padding: .6rem 2.5rem;
+    outline: 0;
+    background-color: #3f69ff;
+    color: white;
+    margin: 1rem auto;
+    border: 0.15rem solid transparent;
+    border-radius: 0.5rem;
+    font-size: 1em;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.25s;
+}
+
+.mg-connection-tester-wrapper .mg-stcb-icon {
+    display: block;
+    width: 1.7rem;
+    height: 1.7rem;
+    background-color: white;
+    margin-inline-end: 0.5rem;
+}
+
+.mg-connection-tester-wrapper .mg-start-test-connection-btn:is(.testing , :hover) {
+    background-color: rgba( 63 , 105 , 255 , 0.05 );
+    color: #3f69ff;
+    border-color: rgb(114, 145, 255);
+}
+
+.mg-connection-tester-wrapper .mg-start-test-connection-btn:is(.testing , :hover) .mg-stcb-icon {
+    background-color: #3f69ff;
+}
+
+.mg-connection-data-wrapper .mg-cdw-title {
+    display: block;
+    font-size: 1.1em;
+    margin: 1rem 0.5rem;
+}
+
+.mg-connection-data-wrapper .mg-connection-data-form {
+    margin-top: 2.5rem;
+}
+
+.mg-connection-data-wrapper .mg-cdf-row {
+    margin: 1.5rem 0;
+}
+
+.mg-connection-data-wrapper .mg-cdf-row label {
+    display: flex;
+    flex-direction: column;
+}
+
+.mg-connection-data-wrapper .mg-cd-title {
+    margin-bottom: 0.25rem;
+    font-size: 1em;
+    font-weight: 500;
+    color: #636363;
+}
+
+.mg-connection-data-wrapper .mg-cd-input {
+    outline: 0;
+    border: .15rem solid rgba(203, 203, 203, 0.45);
+    padding: 0.68rem;
+    border-radius: 0.5rem;
+    font-size: 0.98em;
+}
+
+.mg-connection-data-wrapper .mg-switch-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mg-toggle-switch {
+    position: relative;
+    box-sizing: border-box;
+}
+.mg-toggle-switch input[type="checkbox"] {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    opacity: 0;
+}
+.mg-toggle-switch label {
+    position: relative;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+.mg-toggle-switch label:before {
+    content: '';
+    width: 47px;
+    height: 22px;
+    background: #ccc;
+    position: relative;
+    display: inline-block;
+    border-radius: 46px;
+    box-sizing: border-box;
+    transition: 0.2s ease-in;
+}
+.mg-toggle-switch label:after {
+    content: '';
+    inset: 0;
+    margin: auto auto auto 0.177rem;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    z-index: 2;
+    background: #fff;
+    box-sizing: border-box;
+    transition: 0.2s ease-in;
+}
+.mg-toggle-switch input[type="checkbox"]:checked + label:before {
+    background: #3f69ff;
+}
+.mg-toggle-switch input[type="checkbox"]:checked + label:after {
+    margin: auto auto auto 1.6875rem;
+}
+
+.mg-connection-data-wrapper .mg-warnings-errors-wrapper {
+    display: block;
+    border: .2rem solid rgba(252, 176, 127, 0.8);
+    padding: 0.9rem;
+    background-color: rgba( 255 , 126 , 34 ,0.08 );
+    border-radius: 0.5rem;
+    margin: 2.5rem 0 1.5rem 0;
+}
+
+.mg-connection-data-wrapper .mg-error-message {
+    display: block;
+    font-size: 0.97em;
+    color: #944008;
+    font-weight: 500;
+}
+
+.mg-connection-data-wrapper .mg-action-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: .1rem solid rgba(203, 203, 203, 0.16);
+    padding-top: 1rem;
+}
+
+.mg-connection-data-wrapper .mg-connection-cancel-btn {
+    background-color: transparent;
+    border: 0.1rem solid #EBEBEB;
+    padding: 0.55rem 2.8rem;
+    font-size: 0.9em;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    font-weight: 500;
+}
+
+.mg-connection-data-wrapper .mg-save-connection-btn {
+    background-color: #3f69ff;
+    border: 0.1rem solid transparent;
+    padding: 0.55rem 2rem;
+    font-size: 0.9em;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    color: white;
+    transition: 0.2s;
+    font-weight: 500;
+}
+
+.mg-connection-data-wrapper .mg-save-connection-btn:is( :hover , .active ) {
+    background-color: rgba( 63 , 105 , 255 , 0.05 );
+    color: #3f69ff;
+    border-color: rgb(114, 145, 255);
+}

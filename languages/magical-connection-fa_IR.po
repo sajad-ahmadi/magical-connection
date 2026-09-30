@@ -1,0 +1,1748 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Magical connection\n"
+"POT-Creation-Date: 2026-09-30 14:32+0330\n"
+"PO-Revision-Date: 2026-09-30 14:32+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: magical-connection.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: vue-app/src/composables/useConnectionList.js\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+"X-Poedit-SearchPathExcluded-1: vue-app/src/composables/useNotify.js\n"
+"X-Poedit-SearchPathExcluded-2: vue-app/node_modules\n"
+"X-Poedit-SearchPathExcluded-3: assets/js/vue.js\n"
+"X-Poedit-SearchPathExcluded-4: assets/js/axios.js\n"
+"X-Poedit-SearchPathExcluded-5: vue-app/dist\n"
+
+#: vue-app/src/components/SideMenu.vue:8
+#: includes/Modules/Admin/Menu/AdminMenu.php:55
+#: includes/Modules/Admin/Menu/AdminMenu.php:56
+msgid "Magical Connection"
+msgstr "مجیکال کانکشن"
+
+#: vue-app/src/components/SideMenu.vue:14
+msgid "Manage"
+msgstr "مدیریت"
+
+#: vue-app/src/components/SideMenu.vue:15
+msgid "Your Server Easily"
+msgstr "سرور های شما، به آسانی"
+
+#: vue-app/src/components/SideMenu.vue:39
+msgid "version"
+msgstr "نسخه"
+
+#: vue-app/src/components/SideMenu.vue:54
+msgid "your connections"
+msgstr "اتصالات شما"
+
+#: vue-app/src/components/SideMenu.vue:55
+msgid "plugin settings"
+msgstr "تنظیمات افزونه"
+
+#: vue-app/src/components/SideMenu.vue:56
+#: vue-app/src/views/cronJob/CronJobView.vue:9
+msgid "cron job"
+msgstr "کرون جاب"
+
+#: vue-app/src/components/SideMenu.vue:57 vue-app/src/views/faq/FaqView.vue:10
+msgid "Frequently Questions"
+msgstr "سوالات متداول"
+
+#: vue-app/src/components/SideMenu.vue:58
+msgid "File Scanner"
+msgstr "اسکنر فایل"
+
+#: vue-app/src/components/media-dialog/MediaDialog.vue:12
+msgid "Transfer File to Server"
+msgstr "انتقال فایل به سرور"
+
+#: vue-app/src/components/media-dialog/MediaDialog.vue:14
+msgid "Transfer your files from media to remote server"
+msgstr "فایل‌های خود را از رسانه به سرور راه دور منتقل کنید"
+
+#: vue-app/src/components/media-dialog/MediaDialog.vue:19
+msgid "Transfer to WordPress Media"
+msgstr "انتقال به رسانه‌های وردپرس"
+
+#: vue-app/src/components/media-dialog/MediaDialog.vue:21
+msgid "Review the files , then start the transfer."
+msgstr "فایل‌ها را بررسی کنید، سپس انتقال را آغاز نمایید."
+
+#: vue-app/src/components/media-dialog/MediaDialog.vue:64
+msgid "Start Transfer"
+msgstr "شروع انتقال"
+
+#: vue-app/src/components/media-dialog/MediaDialog.vue:72
+msgid "Start Restore"
+msgstr "شروع بازیابی"
+
+#: vue-app/src/components/media-dialog/MediaDialogFileInfo.vue:35
+msgid "File Size:"
+msgstr "حجم فایل:"
+
+#: vue-app/src/components/media-dialog/MediaDialogFileInfo.vue:43
+msgid "Resolution:"
+msgstr "رزولوشن:"
+
+#: vue-app/src/components/media-dialog/MediaDialogFileInfo.vue:53
+msgid "File Type:"
+msgstr "نوع فایل:"
+
+#: vue-app/src/components/media-dialog/MediaDialogFileInfo.vue:61
+msgid "File Path:"
+msgstr "مسیر فایل:"
+
+#: vue-app/src/components/media-dialog/MediaDialogFileInfo.vue:70
+msgid "Upload Date:"
+msgstr "تاریخ بارگذاری:"
+
+#: vue-app/src/components/media-dialog/MediaDialogFileInfo.vue:78
+msgid "File ID:"
+msgstr "شناسه فایل:"
+
+#: vue-app/src/components/media-dialog/MediaDialogFileInfo.vue:85
+msgid "Available Sizes for This Image"
+msgstr "اندازه‌های موجود برای این تصویر"
+
+#: vue-app/src/components/media-dialog/MediaDialogFileInfo.vue:90
+msgid "Preview"
+msgstr "پیش‌نمایش"
+
+#: vue-app/src/components/media-dialog/MediaDialogFileInfo.vue:91
+msgid "Resolution"
+msgstr "رزولوشن"
+
+#: vue-app/src/components/media-dialog/MediaDialogFileInfo.vue:92
+msgid "File Size"
+msgstr "حجم فایل"
+
+#: vue-app/src/components/media-dialog/MediaDialogFileInfo.vue:93
+msgid "Dimensions"
+msgstr "ابعاد"
+
+#: vue-app/src/components/media-dialog/MediaDialogHostList.vue:8
+msgid "Select Server"
+msgstr "انتخاب هاست دانلود"
+
+#: vue-app/src/components/media-dialog/MediaDialogHostList.vue:11
+msgid "Select one of your servers to transfer the file."
+msgstr "یکی از سرورهای خود را برای انتقال فایل انتخاب کنید."
+
+#: vue-app/src/components/media-dialog/MediaDialogHostList.vue:15
+msgid "loading..."
+msgstr "در حال بارگذاری..."
+
+#: vue-app/src/components/media-dialog/MediaDialogHostList.vue:24
+#: vue-app/src/views/cronJob/CronJobView.vue:29
+msgid "Active"
+msgstr "فعال"
+
+#: vue-app/src/components/media-dialog/MediaDialogHostList.vue:50
+#: vue-app/src/components/media-dialog/MediaDialogHostList.vue:63
+msgid "Check References"
+msgstr "بررسی منابع"
+
+#: vue-app/src/components/media-dialog/MediaDialogHostList.vue:57
+msgid "Transfer"
+msgstr "انتقال"
+
+#: vue-app/src/components/media-dialog/MediaDialogHostList.vue:67
+msgid "This step takes the attachment ID and searches the entire database..."
+msgstr ""
+"این مرحله شناسه پیوست هارا را دریافت کرده و کل پایگاه داده را جستجو می‌کند..."
+
+#: vue-app/src/components/media-dialog/MediaDialogHostList.vue:77
+msgid "Checking References..."
+msgstr "در حال بررسی منابع..."
+
+#: vue-app/src/components/media-dialog/MediaDialogHostList.vue:80
+msgid "Reference Found"
+msgstr "ارجاع پیدا شد"
+
+#: vue-app/src/components/media-dialog/MediaDialogHostList.vue:94
+msgid "Transferring Files..."
+msgstr "در حال انتقال فایل‌ها..."
+
+#: vue-app/src/components/media-dialog/MediaDialogHostList.vue:98
+msgid "Uploading —"
+msgstr "در حال آپلود —"
+
+#: vue-app/src/components/media-dialog/MediaDialogHostList.vue:100
+msgid "of"
+msgstr "از"
+
+#: vue-app/src/components/media-dialog/MediaDialogHostList.vue:102
+msgid "completed"
+msgstr "تکمیل‌شده"
+
+#: vue-app/src/components/media-dialog/MediaDialogHostList.vue:144
+msgid "in queue"
+msgstr "در صف"
+
+#: vue-app/src/components/media-dialog/MediaDialogHostList.vue:147
+msgid "uploading"
+msgstr "در حال آپلود"
+
+#: vue-app/src/components/media-dialog/MediaDialogHostList.vue:151
+msgid "done"
+msgstr "انجام شد"
+
+#: vue-app/src/components/media-dialog/MediaDialogHostList.vue:170
+msgid "Note"
+msgstr "نکته"
+
+#: vue-app/src/components/media-dialog/MediaDialogHostList.vue:173
+msgid "All image sizes (original and thumbnails) will be transferred."
+msgstr "تمام اندازه‌های تصاویر (نسخه اصلی و تصاویر بندانگشتی) منتقل خواهند شد."
+
+#: vue-app/src/components/media-dialog/MediaDialogHostList.vue:174
+msgid ""
+"After a successful transfer, the file link in WordPress will be changed to the "
+"server"
+msgstr ""
+"پس از انتقال موفقیت‌آمیز، لینک فایل در وردپرس به هاست دانلود تغییر خواهد کرد"
+
+#: vue-app/src/components/media-dialog/MediaDialogHostList.vue:177
+msgid ""
+"All image sizes (original version and thumbnails) will be restored to "
+"WordPress."
+msgstr ""
+"تمام اندازه‌های تصاویر (نسخه اصلی و تصاویر بندانگشتی) در وردپرس بازیابی خواهند "
+"شد."
+
+#: vue-app/src/components/media-dialog/MediaDialogHostList.vue:178
+msgid "After a successful restored, the file link in WordPress will be changed."
+msgstr "پس از بازیابی موفقیت‌آمیز، لینک فایل در وردپرس تغییر خواهد کرد."
+
+#: vue-app/src/components/media-dialog/MediaDialogNoServer.vue:41
+msgid "You haven't added any servers yet."
+msgstr "هنوز هیچ سروری اضافه نکرده‌اید."
+
+#: vue-app/src/components/media-dialog/MediaDialogNoServer.vue:42
+msgid "Your server list is empty. To get started, add your first server."
+msgstr "فهرست سرورهای شما خالی است. برای شروع، اولین سرور خود را اضافه کنید."
+
+#: vue-app/src/components/media-dialog/MediaDialogNoServer.vue:43
+msgid "Add New +"
+msgstr "افزودن جدید +"
+
+#: vue-app/src/views/connectionsList/ConnectionListView.vue:7
+msgid "your connection"
+msgstr "اتصالات شما"
+
+#: vue-app/src/views/connectionsList/ConnectionListView.vue:18
+msgid "add new connection"
+msgstr "افزودن اتصال جدید"
+
+#: vue-app/src/views/connectionsList/ConnectionListView.vue:47
+msgid "Your connection list is empty"
+msgstr "فهرست اتصالات شما خالی است"
+
+#: vue-app/src/views/connectionsList/ConnectionListView.vue:48
+msgid "No server has been added yet ."
+msgstr "هنوز هیچ سروری اضافه نشده است."
+
+#: vue-app/src/views/connectionsList/components/ConnectionItem.vue:21
+msgid "transferred files"
+msgstr "فایل‌های منتقل‌شده"
+
+#: vue-app/src/views/connectionsList/components/ConnectionItem.vue:30
+msgid "protocol"
+msgstr "پروتکل"
+
+#: vue-app/src/views/connectionsList/components/ConnectionItem.vue:45
+msgid "connected"
+msgstr "متصل"
+
+#: vue-app/src/views/connectionsList/components/ConnectionItem.vue:50
+msgid "checking connection"
+msgstr "بررسی اتصال"
+
+#: vue-app/src/views/connectionsList/components/ConnectionItem.vue:55
+msgid "connection interrupted"
+msgstr "ارتباط قطع شد"
+
+#: vue-app/src/views/connectionsList/components/ConnectionItem.vue:61
+msgid "last update"
+msgstr "آخرین به‌روزرسانی"
+
+#: vue-app/src/views/cronJob/CronJobView.vue:11
+msgid "Automated File Transfer Management"
+msgstr "مدیریت خودکار انتقال فایل"
+
+#: vue-app/src/views/cronJob/CronJobView.vue:23
+msgid "Run Manually Now"
+msgstr "اجرای دستی"
+
+#: vue-app/src/views/cronJob/CronJobView.vue:27
+#: vue-app/src/views/cronJob/components/CronJobSettings.vue:20
+msgid "Cron Job"
+msgstr "کرون جاب"
+
+#: vue-app/src/views/cronJob/CronJobView.vue:32
+msgid "Inactive"
+msgstr "غیرفعال"
+
+#: vue-app/src/views/cronJob/CronJobView.vue:76
+msgid "How It Works"
+msgstr "نحوه عملکرد"
+
+#: vue-app/src/views/cronJob/components/CronJobHowItWorks.vue:7
+msgid "Check Time"
+msgstr "بررسی زمان"
+
+#: vue-app/src/views/cronJob/components/CronJobHowItWorks.vue:8
+msgid "WordPress runs the cron job at the scheduled time."
+msgstr "وردپرس \"کرون‌جاب\" را در زمان تعیین‌شده اجرا می‌کند."
+
+#: vue-app/src/views/cronJob/components/CronJobHowItWorks.vue:16
+msgid "Get Files"
+msgstr "دریافت فایل‌ها"
+
+#: vue-app/src/views/cronJob/components/CronJobHowItWorks.vue:17
+msgid "The system gets the files pending transfer from the scan results."
+msgstr "سیستم فایل‌های در انتظار انتقال را از نتایج اسکن دریافت می‌کند."
+
+#: vue-app/src/views/cronJob/components/CronJobHowItWorks.vue:25
+msgid "Transfer Files"
+msgstr "انتقال فایل‌ها"
+
+#: vue-app/src/views/cronJob/components/CronJobHowItWorks.vue:26
+msgid "Files are transferred to the destination server."
+msgstr "فایل‌ها به سرور مقصد منتقل می‌شوند."
+
+#: vue-app/src/views/cronJob/components/CronJobHowItWorks.vue:34
+msgid "Update Status"
+msgstr "وضعیت بروزرسانی"
+
+#: vue-app/src/views/cronJob/components/CronJobHowItWorks.vue:35
+msgid "File statuses are updated and the process repeats."
+msgstr "وضعیت‌های فایل به‌روزرسانی می‌شوند و فرآیند تکرار می‌شود."
+
+#: vue-app/src/views/cronJob/components/CronJobSettings.vue:5
+msgid "Cron Job Settings"
+msgstr "تنظیمات کرون‌جاب"
+
+#: vue-app/src/views/cronJob/components/CronJobSettings.vue:8
+msgid "Next Run In"
+msgstr "اجرای بعدی"
+
+#: vue-app/src/views/cronJob/components/CronJobSettings.vue:22
+msgid ""
+"When enabled, scanned files will be automatically transferred based on the "
+"settings below."
+msgstr ""
+"در صورت فعال بودن، فایل‌های اسکن‌شده به‌طور خودکار و بر اساس تنظیمات زیر منتقل "
+"خواهند شد."
+
+#: vue-app/src/views/cronJob/components/CronJobSettings.vue:38
+msgid "Cron Job Run Interval"
+msgstr "بازه زمانی اجرای کرون‌جاب"
+
+#: vue-app/src/views/cronJob/components/CronJobSettings.vue:39
+msgid "How often the transfer process should run."
+msgstr "بازه زمانی اجرای فرآیند انتقال."
+
+#: vue-app/src/views/cronJob/components/CronJobSettings.vue:56
+#: vue-app/src/views/cronJob/components/CronJobStats.vue:21
+msgid "Minute"
+msgstr "دقیقه"
+
+#: vue-app/src/views/cronJob/components/CronJobSettings.vue:62
+#: vue-app/src/views/cronJob/components/CronJobStats.vue:4
+msgid "Files Per Run"
+msgstr "تعداد فایل در هر اجرا"
+
+#: vue-app/src/views/cronJob/components/CronJobSettings.vue:63
+msgid "Number of files to transfer per run."
+msgstr "تعداد فایل‌های قابل انتقال در هر نوبت اجرا."
+
+#: vue-app/src/views/cronJob/components/CronJobSettings.vue:74
+#: vue-app/src/views/cronJob/components/CronJobStats.vue:7
+msgid "File"
+msgstr "فایل"
+
+#: vue-app/src/views/cronJob/components/CronJobSettings.vue:80
+msgid "Retry for Failed Files"
+msgstr "تلاش مجدد برای فایل‌های ناموفق"
+
+#: vue-app/src/views/cronJob/components/CronJobSettings.vue:81
+msgid "Maximum allowed time per run."
+msgstr "حداکثر زمان مجاز برای هر اجرا."
+
+#: vue-app/src/views/cronJob/components/CronJobSettings.vue:94
+msgid "Repeat"
+msgstr "تکرار"
+
+#: vue-app/src/views/cronJob/components/CronJobSettings.vue:103
+#: vue-app/src/views/pluginSettings/components/SettingsSaveBar.vue:8
+msgid "Save Settings"
+msgstr "ذخیره تنظیمات"
+
+#: vue-app/src/views/cronJob/components/CronJobStats.vue:9
+msgid "Per Run"
+msgstr "به ازای هر اجرا"
+
+#: vue-app/src/views/cronJob/components/CronJobStats.vue:18
+#: vue-app/src/views/cronJob/components/CronJobTimelinePreview.vue:24
+msgid "Run Interval"
+msgstr "بازه اجرا"
+
+#: vue-app/src/views/cronJob/components/CronJobStats.vue:23
+msgid "Repeat Interval"
+msgstr "فاصله تکرار"
+
+#: vue-app/src/views/cronJob/components/CronJobStats.vue:32
+#: vue-app/src/views/cronJob/components/CronJobTimelinePreview.vue:15
+msgid "Next Run"
+msgstr "اجرای بعدی"
+
+#: vue-app/src/views/cronJob/components/CronJobTimelinePreview.vue:6
+msgid "Schedule Preview"
+msgstr "پیش نمایش زمان بندی"
+
+#: vue-app/src/views/cronJob/components/CronJobTimelinePreview.vue:9
+msgid "Cron job is active and properly scheduled."
+msgstr "کرون‌جاب فعال است و به‌درستی زمان‌بندی شده است."
+
+#: vue-app/src/views/cronJob/components/CronJobTimelinePreview.vue:26
+msgid "Every"
+msgstr "هر"
+
+#: vue-app/src/views/cronJob/components/CronJobTimelinePreview.vue:26
+msgid "minutes"
+msgstr "دقیقه"
+
+#: vue-app/src/views/cronJob/components/CronJobTimelinePreview.vue:32
+msgid "Last Run"
+msgstr "آخرین اجرا"
+
+#: vue-app/src/views/cronJob/components/CronJobTimelinePreview.vue:35
+msgid "Successful"
+msgstr "موفق"
+
+#: vue-app/src/views/cronJob/components/CronJobTimelinePreview.vue:41
+msgid "Next 5 Runs"
+msgstr "۵ اجرای بعدی"
+
+#: vue-app/src/views/cronJob/components/CronJobTimelinePreview.vue:62
+msgid "Cron Job is not set"
+msgstr "کرون‌جاب تنظیم نشده است"
+
+#: vue-app/src/views/fileScanner/FileScannerView.vue:8
+msgid "Scan Files"
+msgstr "اسکن فایل‌ها"
+
+#: vue-app/src/views/fileScanner/FileScannerView.vue:10
+msgid "Scan and check files in selected paths."
+msgstr "اسکن فایل‌های موجود در مسیرهای انتخاب‌شده."
+
+#: vue-app/src/views/fileScanner/FileScannerView.vue:21
+msgid "Start New Scan"
+msgstr "شروع اسکن جدید"
+
+#: vue-app/src/views/fileScanner/FileScannerView.vue:34
+msgid "Scan Results Summary"
+msgstr "خلاصه نتایج اسکن"
+
+#: vue-app/src/views/fileScanner/FileScannerView.vue:44
+msgid "File Details by Type"
+msgstr "جزئیات فایل‌ها بر اساس نوع"
+
+#: vue-app/src/views/fileScanner/FileScannerView.vue:47
+msgid "Total Files Found"
+msgstr "مجموع فایل‌های یافت‌شده"
+
+#: vue-app/src/views/fileScanner/components/ScanFileDetails.vue:5
+msgid "File Type"
+msgstr "نوع فایل"
+
+#: vue-app/src/views/fileScanner/components/ScanFileDetails.vue:6
+msgid "Total Files"
+msgstr "مجموع فایل ها"
+
+#: vue-app/src/views/fileScanner/components/ScanFileDetails.vue:7
+msgid "In WordPress"
+msgstr "در وردپرس"
+
+#: vue-app/src/views/fileScanner/components/ScanFileDetails.vue:8
+msgid "On Remote Server"
+msgstr "در هاست دانلود"
+
+#: vue-app/src/views/fileScanner/components/ScanFileDetails.vue:9
+msgid "Total WordPress Size"
+msgstr "حجم کل در وردپرس"
+
+#: vue-app/src/views/fileScanner/components/ScanFileDetails.vue:10
+msgid "Total Remote Server Size"
+msgstr "حجم کل در هاست دانلود"
+
+#: vue-app/src/views/fileScanner/components/ScanFileDetails.vue:55
+msgid "Total"
+msgstr "مجموع"
+
+#: vue-app/src/views/fileScanner/components/ScanProgressCard.vue:6
+msgid "Scan Default Media Path"
+msgstr "اسکن مسیر پیش‌فرض رسانه"
+
+#: vue-app/src/views/fileScanner/components/ScanProgressCard.vue:11
+msgid "Scanning..."
+msgstr "در حال اسکن..."
+
+#: vue-app/src/views/fileScanner/components/ScanProgressCard.vue:21
+msgid "Elapsed Time:"
+msgstr "زمان سپری‌شده:"
+
+#: vue-app/src/views/fileScanner/components/ScanProgressCard.vue:27
+msgid "Scanned Files:"
+msgstr "فایل های اسکن شده :"
+
+#: vue-app/src/views/fileScanner/components/ScanProgressCard.vue:33
+msgid "Scanned Volume:"
+msgstr "حجم اسکن شده :"
+
+#: vue-app/src/views/fileScanner/components/ScanProgressCard.vue:39
+msgid "Files Found:"
+msgstr "فایل‌های یافت‌شده:"
+
+#: vue-app/src/views/fileScanner/components/ScanProgressCard.vue:63
+msgid "speed :"
+msgstr "سرعت :"
+
+#: vue-app/src/views/fileScanner/components/ScanProgressCard.vue:65
+msgid "second/file"
+msgstr "ثانیه/فایل"
+
+#: vue-app/src/views/fileScanner/components/ScanProgressCard.vue:69
+msgid "Estimated Time Remaining:"
+msgstr "زمان تقریبی باقی‌مانده:"
+
+#: vue-app/src/views/fileScanner/components/ScanProgressCard.vue:78
+msgid "Stop Scan"
+msgstr "توقف اسکن"
+
+#: vue-app/src/views/fileScanner/components/ScanSummary.vue:7
+msgid "Documents"
+msgstr "اسناد"
+
+#: vue-app/src/views/fileScanner/components/ScanSummary.vue:18
+msgid "Images"
+msgstr "تصاویر"
+
+#: vue-app/src/views/fileScanner/components/ScanSummary.vue:29
+msgid "Audio"
+msgstr "صوتی"
+
+#: vue-app/src/views/fileScanner/components/ScanSummary.vue:40
+msgid "Videos"
+msgstr "ویدیوها"
+
+#: vue-app/src/views/fileScanner/components/ScanSummary.vue:51
+msgid "Others"
+msgstr "سایر"
+
+#: vue-app/src/views/newConnection/EditAddConnectionView.vue:9
+msgid "Add / Edit Connection"
+msgstr "افزودن / ویرایش اتصال"
+
+#: vue-app/src/views/newConnection/EditAddConnectionView.vue:15
+msgid "Connection Info"
+msgstr "اطلاعات اتصال"
+
+#: vue-app/src/views/newConnection/components/ConnectionBaseFields.vue:3
+msgid "Connection Protocol"
+msgstr "پروتکل اتصال"
+
+#: vue-app/src/views/newConnection/components/ConnectionBaseFields.vue:21
+#: vue-app/src/composables/useEditAddConnection.js:197
+msgid "Connection Name"
+msgstr "نام اتصال"
+
+#: vue-app/src/views/newConnection/components/ConnectionFormActions.vue:9
+msgid "Save Connection"
+msgstr "ذخیره اتصال"
+
+#: vue-app/src/views/newConnection/components/ConnectionFormActions.vue:17
+msgid "Cancel"
+msgstr "لغو"
+
+#: vue-app/src/views/newConnection/components/ConnectionFtpFields.vue:3
+msgid "Server Address (IP)"
+msgstr "آدرس سرور (IP)"
+
+#: vue-app/src/views/newConnection/components/ConnectionFtpFields.vue:18
+msgid "Port"
+msgstr "پورت"
+
+#: vue-app/src/views/newConnection/components/ConnectionFtpFields.vue:34
+msgid "Username"
+msgstr "نام کاربری"
+
+#: vue-app/src/views/newConnection/components/ConnectionFtpFields.vue:49
+#: vue-app/src/composables/useEditAddConnection.js:216
+msgid "Password"
+msgstr "رمز عبور"
+
+#: vue-app/src/views/newConnection/components/ConnectionFtpFields.vue:64
+msgid "PATH"
+msgstr "مسیر"
+
+#: vue-app/src/views/newConnection/components/ConnectionFtpFields.vue:79
+#: vue-app/src/views/newConnection/components/ConnectionHttpFields.vue:16
+#: vue-app/src/composables/useEditAddConnection.js:222
+#: vue-app/src/composables/useEditAddConnection.js:239
+msgid "Domain"
+msgstr "دامنه"
+
+#: vue-app/src/views/newConnection/components/ConnectionFtpFields.vue:94
+msgid "Passive Mode"
+msgstr "Passive Mode"
+
+#: vue-app/src/views/newConnection/components/ConnectionHttpFields.vue:3
+msgid "api key"
+msgstr "کلید API"
+
+#: vue-app/src/views/newConnection/components/ConnectionHttpFields.vue:34
+msgid "API Setup"
+msgstr "راه‌اندازی API"
+
+#: vue-app/src/views/newConnection/components/ConnectionHttpFields.vue:36
+msgid "To use the HTTP connection, first install the API on the server."
+msgstr "برای استفاده از اتصال HTTP، ابتدا API را روی سرور نصب کنید."
+
+#: vue-app/src/views/newConnection/components/ConnectionHttpFields.vue:53
+msgid "View Magical Connection Tutorial"
+msgstr "مشاهده آموزش در مجیکال کانکشن"
+
+#: vue-app/src/views/newConnection/components/ConnectionHttpFields.vue:62
+msgid "Download API"
+msgstr "دانلود API"
+
+#: vue-app/src/views/newConnection/components/ConnectionHttpFields.vue:70
+msgid "Note:"
+msgstr "نکته :"
+
+#: vue-app/src/views/newConnection/components/ConnectionHttpFields.vue:71
+msgid ""
+"Please download the API file and install it on the destination server before "
+"saving the connection. Otherwise, the connection will not be established."
+msgstr ""
+"لطفاً پیش از ذخیره کردن اتصال، فایل API را دانلود و روی سرور مقصد نصب کنید. در "
+"غیر این صورت، اتصال برقرار نخواهد شد."
+
+#: vue-app/src/views/pluginSettings/PluginSettingsView.vue:9
+msgid "Plugin Settings"
+msgstr "تنظیمات افزونه"
+
+#: vue-app/src/views/pluginSettings/components/SettingsTabs.vue:35
+msgid "WP Media Config"
+msgstr "پیکربندی رسانه وردپرس"
+
+#: vue-app/src/views/pluginSettings/components/WpMediaSettings.vue:5
+msgid "Direct Upload To Remote Server"
+msgstr "اپلود مستقیم در هاست دانلود"
+
+#: vue-app/src/views/pluginSettings/components/WpMediaSettings.vue:7
+msgid ""
+"By enabling this option, files will be uploaded from the media library to the "
+"remote server."
+msgstr ""
+"با فعال‌سازی این گزینه، فایل‌ها از کتابخانه رسانه به هاست دانلود بارگذاری خواهند "
+"شد."
+
+#: vue-app/src/views/pluginSettings/components/WpMediaSettings.vue:23
+msgid "Default Storage Server"
+msgstr "هاست دانلود پیش‌فرض"
+
+#: vue-app/src/views/pluginSettings/components/WpMediaSettings.vue:27
+msgid "Select your Default Server"
+msgstr "هاست دانلود پیش‌فرض"
+
+#: vue-app/src/views/pluginSettings/components/WpMediaSettings.vue:50
+msgid "Access Statuses"
+msgstr "وضعیت‌های دسترسی"
+
+#: vue-app/src/views/pluginSettings/components/WpMediaSettings.vue:74
+msgid ""
+"By enabling this option, only the site administrator will have permission to "
+"transfer files from the media library to the remote server."
+msgstr ""
+"با فعال‌سازی این گزینه، تنها مدیر سایت اجازه خواهد داشت فایل‌ها را از کتابخانه "
+"رسانه به سرور راه دور منتقل کند."
+
+#: includes/Modules/Connection/Ajax/ConnectionAjax.php:101
+#: includes/Modules/Connection/Ajax/ConnectionAjax.php:216
+#: includes/Modules/Connection/Ajax/ConnectionAjax.php:266
+#: includes/Modules/Media/Ajax/MediaTransferAjax.php:208
+msgid "Invalid connection ID."
+msgstr "شناسه اتصال نامعتبر."
+
+#: includes/Modules/Connection/Ajax/ConnectionAjax.php:108
+#: includes/Modules/Connection/Ajax/ConnectionAjax.php:138
+msgid "No connections found."
+msgstr "اتصالی پیدا نشد."
+
+#: includes/Modules/Connection/Ajax/ConnectionAjax.php:237
+msgid "Connection updated successfully."
+msgstr "اطلاعات اتصال شما با موفقیت بروز شد."
+
+#: includes/Modules/Connection/Ajax/ConnectionAjax.php:276
+msgid "Connection deleted successfully."
+msgstr "اتصال شما با موفقیت حذف گردید."
+
+#: includes/Modules/Connection/Services/ConnectionTestService.php:81
+msgid "Invalid test step. Allowed steps: connection, upload, delete."
+msgstr "این مرحله از تست نامعتبر است. مراحل مجاز: اتصال، بارگذاری، حذف."
+
+#: includes/Modules/Cron/Ajax/CronAjax.php:89
+#: vue-app/src/composables/useCronJob.js:300
+msgid "Cron job executed successfully."
+msgstr "کرون جاب با موفقیت اجرا گردید."
+
+#: includes/Modules/Cron/Ajax/CronAjax.php:113
+#: includes/Modules/Cron/Ajax/CronAjax.php:154
+msgid "Cron settings updated successfully."
+msgstr "اطلاعات کرون جاب با موفقیت بروز شد."
+
+#: includes/Modules/Cron/Ajax/CronAjax.php:139
+msgid "Invalid cron settings."
+msgstr "تنظیمات کرون جاب نامعتبر."
+
+#: includes/Modules/Cron/Services/CronService.php:129
+msgid "Every 1 Minute"
+msgstr "هر 1 دقیقه"
+
+#: includes/Modules/Cron/Services/CronService.php:134
+msgid "Every 5 Minutes"
+msgstr "هر 5 دقیقه"
+
+#: includes/Modules/Cron/Services/CronService.php:139
+msgid "Every 10 Minutes"
+msgstr "هر 10 دقیقه"
+
+#: includes/Modules/Cron/Services/CronService.php:144
+msgid "Every 15 Minutes"
+msgstr "هر 15 دقیقه"
+
+#: includes/Modules/Cron/Services/CronService.php:149
+msgid "Every 30 Minutes"
+msgstr "هر 30 دقیقه"
+
+#: includes/Modules/Cron/Services/CronService.php:154
+msgid "Every 1 Hour"
+msgstr "هر 1 ساعت"
+
+#: includes/Modules/Media/Action/MediaTransferAction.php:174
+msgid "Transfer to WordPress"
+msgstr "انتقال به وردپرس"
+
+#: includes/Modules/Media/Action/MediaTransferAction.php:174
+msgid "Transfer to Remote Server"
+msgstr "انتقال به هاست دانلود"
+
+#: includes/Modules/Media/Ajax/MediaTransferAjax.php:87
+#: includes/Modules/Media/Ajax/MediaTransferAjax.php:122
+#: includes/Modules/Media/Ajax/MediaTransferAjax.php:159
+#: includes/Modules/Media/Ajax/MediaTransferAjax.php:200
+msgid "Invalid attachment ID."
+msgstr "شناسه رسانه معتبر نمیباشد."
+
+#: includes/Modules/Media/Ajax/MediaTransferAjax.php:226
+#: includes/Modules/Scanner/Ajax/ScannerAjax.php:92
+msgid "Scan completed successfully."
+msgstr "اسکن با موفقیت پایان یافت."
+
+#: includes/Modules/Media/Ajax/MediaTransferAjax.php:241
+msgid "An unexpected error occurred."
+msgstr "خطای غیرمنتظره‌ای رخ داد."
+
+#: includes/Modules/Scanner/Repositories/ScanRepository.php:50
+msgid "Unable to create scan."
+msgstr "امکان شروع اسکن وجود ندارد."
+
+#: includes/Modules/Scanner/Repositories/ScanRepository.php:72
+msgid "Unable to update scan."
+msgstr "امکان به‌روزرسانی اطلاعات اسکن وجود ندارد."
+
+#: includes/Modules/Scanner/Services/MediaScannerService.php:66
+msgid "Scan not found."
+msgstr "اسکن پیدا نشد."
+
+#: includes/Modules/Setting/Ajax/SettingAjax.php:64
+#: includes/Modules/Setting/Ajax/SettingAjax.php:94
+msgid "Invalid group key."
+msgstr "کلید گروهی نامعتبر."
+
+#: includes/Support/AjaxNonce.php:80
+msgid "Invalid security token."
+msgstr "توکن امنیتی نامعتبر است."
+
+#: vue-app/src/composables/useConnectionList.js:68
+msgid "Processing"
+msgstr "در حال پردازش"
+
+#: vue-app/src/composables/useConnectionList.js:68
+msgid "Deleting Connection..."
+msgstr "در حال حذف..."
+
+#: vue-app/src/composables/useConnectionList.js:74
+#: vue-app/src/composables/useCronJob.js:269
+#: vue-app/src/composables/useCronJob.js:300
+#: vue-app/src/composables/usePluginSettings.js:103
+msgid "Done"
+msgstr "انجام شد"
+
+#: vue-app/src/composables/useConnectionList.js:74
+msgid "your connection deleted successfully."
+msgstr "اتصال شما با موفقیت حذف گردید."
+
+#: vue-app/src/composables/useConnectionList.js:76
+#: vue-app/src/composables/useConnectionList.js:79
+#: vue-app/src/composables/useCronJob.js:271
+#: vue-app/src/composables/useCronJob.js:275
+#: vue-app/src/composables/useCronJob.js:310
+#: vue-app/src/composables/useCronJob.js:314
+#: vue-app/src/composables/usePluginSettings.js:105
+#: vue-app/src/composables/usePluginSettings.js:110
+msgid "Failed"
+msgstr "ناموفق"
+
+#: vue-app/src/composables/useConnectionList.js:76
+#: vue-app/src/composables/useConnectionList.js:79
+msgid "An error occurred while deleting connection. Please try again."
+msgstr "هنگام حذف اتصال خطایی رخ داد. لطفاً دوباره تلاش کنید."
+
+#: vue-app/src/composables/useCronJob.js:140
+#: vue-app/src/composables/useCronJob.js:224
+msgid "Today"
+msgstr "امروز"
+
+#: vue-app/src/composables/useCronJob.js:141
+msgid "Tomorrow"
+msgstr "فردا"
+
+#: vue-app/src/composables/useCronJob.js:142
+msgid "Days Left"
+msgstr "روز مانده"
+
+#: vue-app/src/composables/useCronJob.js:225
+msgid "Yesterday"
+msgstr "دیروز"
+
+#: vue-app/src/composables/useCronJob.js:226
+msgid "days ago"
+msgstr "روز پیش"
+
+#: vue-app/src/composables/useCronJob.js:249
+msgid "Saving Settings"
+msgstr "ذخیره تنظیمات"
+
+#: vue-app/src/composables/useCronJob.js:249
+msgid "please waite"
+msgstr "لطفاً صبر کنید"
+
+#: vue-app/src/composables/useCronJob.js:269
+msgid "your setting saved"
+msgstr "تنظیمات شما ذخیره شد"
+
+#: vue-app/src/composables/useCronJob.js:271
+#: vue-app/src/composables/useCronJob.js:275
+msgid "Saving Data Failed"
+msgstr "ذخیره‌سازی داده‌ها موفقیت آمیز نبود"
+
+#: vue-app/src/composables/useCronJob.js:285
+msgid "Saving Data"
+msgstr "ذخیره‌سازی داده‌ها"
+
+#: vue-app/src/composables/useCronJob.js:285
+msgid "Saving data, please wait."
+msgstr "در حال ذخیره داده‌ها، لطفاً منتظر بمانید."
+
+#: vue-app/src/composables/useCronJob.js:310
+#: vue-app/src/composables/useCronJob.js:314
+msgid "Cron job execution failed."
+msgstr "اجرای کرون‌جاب با شکست مواجه شد."
+
+#: vue-app/src/composables/useEditAddConnection.js:59
+#: vue-app/src/composables/useEditAddConnection.js:63
+msgid "Error"
+msgstr "خطا"
+
+#: vue-app/src/composables/useEditAddConnection.js:59
+#: vue-app/src/composables/useEditAddConnection.js:63
+msgid "An error occurred while getting connection data."
+msgstr "هنگام دریافت اطلاعات اتصال، خطایی رخ داد."
+
+#: vue-app/src/composables/useEditAddConnection.js:90
+#: vue-app/src/composables/useEditAddConnection.js:106
+msgid "Please Waite"
+msgstr "لطفاً صبر کنید"
+
+#: vue-app/src/composables/useEditAddConnection.js:90
+#: vue-app/src/composables/useEditAddConnection.js:106
+msgid "Information submitted,do not close the page..."
+msgstr "در حال ارسال اطلاعات، صفحه را نبندید..."
+
+#: vue-app/src/composables/useEditAddConnection.js:95
+msgid "Created Successfully"
+msgstr "با موفقیت ایجاد شد"
+
+#: vue-app/src/composables/useEditAddConnection.js:95
+msgid "your connection created successfully."
+msgstr "اتصال شما با موفقیت ایجاد شد."
+
+#: vue-app/src/composables/useEditAddConnection.js:98
+#: vue-app/src/composables/useEditAddConnection.js:101
+msgid "Creation Failed"
+msgstr "عملیات با خطا مواجه شد"
+
+#: vue-app/src/composables/useEditAddConnection.js:98
+#: vue-app/src/composables/useEditAddConnection.js:101
+msgid "An error occurred while creating connection. Please try again."
+msgstr "هنگام ایجاد اتصال خطایی رخ داد. لطفاً دوباره تلاش کنید."
+
+#: vue-app/src/composables/useEditAddConnection.js:114
+msgid "Update Successfully"
+msgstr "به‌روزرسانی موفقیت"
+
+#: vue-app/src/composables/useEditAddConnection.js:114
+msgid "your connection data updated successfully."
+msgstr "اطلاعات اتصال شما با موفقیت به‌روزرسانی شد."
+
+#: vue-app/src/composables/useEditAddConnection.js:117
+#: vue-app/src/composables/useEditAddConnection.js:120
+msgid "Update Failed"
+msgstr "به‌روزرسانی ناموفق"
+
+#: vue-app/src/composables/useEditAddConnection.js:117
+#: vue-app/src/composables/useEditAddConnection.js:120
+msgid "An error occurred while updating information. Please try again."
+msgstr "هنگام به‌روزرسانی اطلاعات خطایی رخ داد. لطفاً دوباره تلاش کنید."
+
+#: vue-app/src/composables/useEditAddConnection.js:197
+msgid "Please enter a title for your connection."
+msgstr "لطفاً عنوانی برای اتصال خود وارد کنید."
+
+#: vue-app/src/composables/useEditAddConnection.js:208
+msgid "Server Address"
+msgstr "آدرس سرور"
+
+#: vue-app/src/composables/useEditAddConnection.js:208
+msgid "Please enter your server IP address."
+msgstr "لطفاً آدرس IP هاست دانلود خود را وارد کنید."
+
+#: vue-app/src/composables/useEditAddConnection.js:212
+msgid "User Name"
+msgstr "نام کاربری"
+
+#: vue-app/src/composables/useEditAddConnection.js:212
+msgid "Please enter your username to login to the server."
+msgstr "لطفاً برای ورود به سرور، نام کاربری خود را وارد کنید."
+
+#: vue-app/src/composables/useEditAddConnection.js:216
+msgid "Please enter your password to login to the server."
+msgstr "لطفاً برای ورود به سرور، رمز عبور خود را وارد کنید."
+
+#: vue-app/src/composables/useEditAddConnection.js:222
+#: vue-app/src/composables/useEditAddConnection.js:239
+msgid "Please enter valid domain to login to the server."
+msgstr "لطفاً برای ورود به سرور، یک دامنه معتبر وارد کنید."
+
+#: vue-app/src/composables/useFileScanner.js:258
+#: vue-app/src/composables/useFileScanner.js:272
+#: vue-app/src/composables/useFileScanner.js:273
+#: vue-app/src/composables/useFileScanner.js:279
+msgid "Sec"
+msgstr "ثانیه"
+
+#: vue-app/src/composables/useFileScanner.js:278
+#: vue-app/src/composables/useFileScanner.js:279
+msgid "Min"
+msgstr "دقیقه"
+
+#: vue-app/src/composables/useMediaDialog.js:74
+msgid "Select the Server"
+msgstr "انتخاب هاست دانلود"
+
+#: vue-app/src/composables/useMediaDialog.js:75
+msgid "Select your server to start the transfer."
+msgstr "برای شروع انتقال، هاست دانلود موردنظر را انتخاب کنید."
+
+#: vue-app/src/composables/usePluginSettings.js:92
+msgid "Saving"
+msgstr "در حال ذخیره"
+
+#: vue-app/src/composables/usePluginSettings.js:92
+msgid "please waite..."
+msgstr "لطفاً صبر کنید..."
+
+#: vue-app/src/composables/usePluginSettings.js:103
+msgid "your changes saved successfully"
+msgstr "تغییرات شما با موفقیت ذخیره شد"
+
+#: vue-app/src/composables/usePluginSettings.js:105
+#: vue-app/src/composables/usePluginSettings.js:110
+msgid "An error occurred while saving. Please try again."
+msgstr "هنگام ذخیره‌سازی خطایی رخ داد. لطفاً دوباره تلاش کنید."
+
+#: vue-app/src/views/faq/data.js:7
+msgid "Getting Started with Magical Connection"
+msgstr "آغاز کار با مجیکال کانکشن"
+
+#: vue-app/src/views/faq/data.js:8
+msgid "A quick overview of what Magical Connection does and how to set it up."
+msgstr "مروری کوتاه بر عملکرد مجیکال کانکشن و نحوه راه‌اندازی آن."
+
+#: vue-app/src/views/faq/data.js:9
+msgid ""
+"Magical Connection is a WordPress plugin that lets you transfer files from "
+"your media library to a remote server (via FTP or HTTP) and restore them back "
+"whenever needed. It automatically updates all database references, so your "
+"posts and pages keep working after every transfer."
+msgstr ""
+"مجیکال کانکشن یک افزونه وردپرس است که به شما امکان می‌دهد فایل‌ها را از کتابخانه "
+"رسانه خود به یک هاست یا سرور دیگر (از طریق FTP یا HTTP) منتقل کنید و هر زمان "
+"که نیاز بود، آن‌ها را بازگردانید. این افزونه به‌طور خودکار تمام ارجاعات پایگاه "
+"داده را به‌روزرسانی می‌کند تا نوشته‌ها و برگه‌های شما پس از هر بار انتقال، همچنان "
+"به‌درستی کار کنند."
+
+#: vue-app/src/views/faq/data.js:12 vue-app/src/views/faq/data.js:28
+#: vue-app/src/views/faq/data.js:50 vue-app/src/views/faq/data.js:72
+#: vue-app/src/views/faq/data.js:93 vue-app/src/views/faq/data.js:112
+#: vue-app/src/views/faq/data.js:130 vue-app/src/views/faq/data.js:149
+#: vue-app/src/views/faq/data.js:167
+msgid "Step 1"
+msgstr "مرحله ۱"
+
+#: vue-app/src/views/faq/data.js:12
+msgid "Make sure you have access to a remote server."
+msgstr "مطمئن شوید که به یک سرور یا هاست دانلود دسترسی دارید."
+
+#: vue-app/src/views/faq/data.js:13 vue-app/src/views/faq/data.js:29
+#: vue-app/src/views/faq/data.js:51 vue-app/src/views/faq/data.js:73
+#: vue-app/src/views/faq/data.js:94 vue-app/src/views/faq/data.js:113
+#: vue-app/src/views/faq/data.js:131 vue-app/src/views/faq/data.js:150
+#: vue-app/src/views/faq/data.js:168
+msgid "Step 2"
+msgstr "مرحله ۲"
+
+#: vue-app/src/views/faq/data.js:13
+msgid "Go to \"Magical Connection\" from your WordPress admin menu."
+msgstr "از منوی مدیریت وردپرس خود به بخش \"مجیکال کانکشن\" بروید."
+
+#: vue-app/src/views/faq/data.js:14 vue-app/src/views/faq/data.js:30
+#: vue-app/src/views/faq/data.js:52 vue-app/src/views/faq/data.js:74
+#: vue-app/src/views/faq/data.js:95 vue-app/src/views/faq/data.js:114
+#: vue-app/src/views/faq/data.js:132 vue-app/src/views/faq/data.js:151
+#: vue-app/src/views/faq/data.js:169
+msgid "Step 3"
+msgstr "مرحله ۳"
+
+#: vue-app/src/views/faq/data.js:14
+msgid "Create your first connection (FTP or HTTP)."
+msgstr "اولین اتصال خود (FTP یا HTTP) را ایجاد کنید."
+
+#: vue-app/src/views/faq/data.js:15 vue-app/src/views/faq/data.js:31
+#: vue-app/src/views/faq/data.js:53 vue-app/src/views/faq/data.js:75
+#: vue-app/src/views/faq/data.js:96 vue-app/src/views/faq/data.js:115
+#: vue-app/src/views/faq/data.js:133 vue-app/src/views/faq/data.js:152
+#: vue-app/src/views/faq/data.js:170
+msgid "Step 4"
+msgstr "مرحله ۴"
+
+#: vue-app/src/views/faq/data.js:15
+msgid "Scan your media library to see what files you have."
+msgstr "کتابخانه رسانه‌ای خود را اسکن کنید تا ببینید چه فایل‌هایی دارید."
+
+#: vue-app/src/views/faq/data.js:16 vue-app/src/views/faq/data.js:32
+#: vue-app/src/views/faq/data.js:54 vue-app/src/views/faq/data.js:76
+#: vue-app/src/views/faq/data.js:97 vue-app/src/views/faq/data.js:116
+#: vue-app/src/views/faq/data.js:134 vue-app/src/views/faq/data.js:153
+#: vue-app/src/views/faq/data.js:171
+msgid "Step 5"
+msgstr "مرحله ۵"
+
+#: vue-app/src/views/faq/data.js:16
+msgid "Transfer your first file from the Media Library."
+msgstr "اولین فایل خود را از کتابخانه رسانه منتقل کنید."
+
+#: vue-app/src/views/faq/data.js:23
+msgid "How to Create a New FTP Connection"
+msgstr "چگونه یک اتصال FTP جدید ایجاد کنیم"
+
+#: vue-app/src/views/faq/data.js:24
+msgid "Connect your WordPress site to a remote FTP server in 10 steps."
+msgstr "سایت وردپرسی خود را در ۱۰ مرحله به یک سرور FTP متصل کنید."
+
+#: vue-app/src/views/faq/data.js:25
+msgid ""
+"The FTP protocol allows you to transfer files directly from your WordPress "
+"media library to a remote server using standard FTP credentials. Before "
+"creating the connection, make sure you have the server IP address, FTP "
+"username, FTP password, and the base path (usually \"public_html\" or \"/\")."
+msgstr ""
+"پروتکل FTP به شما امکان می‌دهد با استفاده از اطلاعات استاندارد اتصال FTP، "
+"فایل‌ها را مستقیماً از کتابخانه رسانه وردپرس به یک سرور راه دور منتقل کنید. پیش "
+"از برقراری اتصال، اطمینان حاصل کنید که آدرس IP سرور، نام کاربری FTP، رمز عبور "
+"FTP و مسیر پایه (که معمولاً «public_html» یا «/» است) را در اختیار دارید."
+
+#: vue-app/src/views/faq/data.js:28 vue-app/src/views/faq/data.js:50
+msgid ""
+"Go to \"Magical Connection\" → \"Your Connections\" and click \"Add New "
+"Connection\"."
+msgstr ""
+"به مسیر \"مجیکال کانکشن\" ← \"اتصالات\" بروید و روی \"افزودن اتصال جدید\" کلیک "
+"کنید."
+
+#: vue-app/src/views/faq/data.js:29
+msgid "Enter a descriptive name (e.g., \"My Download Server\")."
+msgstr "یک نام توصیفی برای اتصال خود وارد کنید (مثلاً \"سرور دانلود من\")."
+
+#: vue-app/src/views/faq/data.js:30
+msgid "Select \"FTP\" from the \"Connection Protocol\" dropdown."
+msgstr "گزینه \"FTP\" را از منوی کشویی \"پروتکل اتصال\" انتخاب کنید."
+
+#: vue-app/src/views/faq/data.js:31
+msgid "Enter the \"Server Address (IP)\" — for example: 192.168.1.1"
+msgstr "\"آدرس سرور (IP)\" را وارد کنید — برای مثال: 192.168.1.1"
+
+#: vue-app/src/views/faq/data.js:32
+msgid "Enter the \"Port\" — the default FTP port is 21."
+msgstr "\"پورت\" را وارد کنید - پورت پیش‌فرض FTP عدد ۲۱ است."
+
+#: vue-app/src/views/faq/data.js:33 vue-app/src/views/faq/data.js:55
+#: vue-app/src/views/faq/data.js:77 vue-app/src/views/faq/data.js:98
+#: vue-app/src/views/faq/data.js:117 vue-app/src/views/faq/data.js:135
+#: vue-app/src/views/faq/data.js:154 vue-app/src/views/faq/data.js:172
+msgid "Step 6"
+msgstr "مرحله ۶"
+
+#: vue-app/src/views/faq/data.js:33
+msgid "Enter your \"Username\" and \"Password\"."
+msgstr "\"نام کاربری\" و \"رمز عبور\" خود را وارد کنید."
+
+#: vue-app/src/views/faq/data.js:34 vue-app/src/views/faq/data.js:56
+#: vue-app/src/views/faq/data.js:78 vue-app/src/views/faq/data.js:99
+#: vue-app/src/views/faq/data.js:136
+msgid "Step 7"
+msgstr "مرحله ۷"
+
+#: vue-app/src/views/faq/data.js:34
+msgid "In the \"PATH\" field, enter the destination folder (e.g., public_html/)."
+msgstr ""
+"در فیلد \"مسیر پیشفرض\"، پوشه مقصد (برای مثال public_html/) را وارد کنید."
+
+#: vue-app/src/views/faq/data.js:35 vue-app/src/views/faq/data.js:57
+#: vue-app/src/views/faq/data.js:79
+msgid "Step 8"
+msgstr "مرحله ۸"
+
+#: vue-app/src/views/faq/data.js:35
+msgid "Enter the \"Domain\" of the remote server (e.g., https://example.com)."
+msgstr ""
+"\"دامنه\" سرور یا هاست دانلود را وارد کنید (برای مثال: https://example.com)."
+
+#: vue-app/src/views/faq/data.js:36 vue-app/src/views/faq/data.js:58
+#: vue-app/src/views/faq/data.js:80
+msgid "Step 9"
+msgstr "مرحله ۹"
+
+#: vue-app/src/views/faq/data.js:36
+msgid "Enable \"Passive Mode\" if your server is behind a firewall."
+msgstr "اگر سرور شما پشت فایروال قرار دارد، \"Passive Mode\" را فعال کنید."
+
+#: vue-app/src/views/faq/data.js:37 vue-app/src/views/faq/data.js:59
+msgid "Step 10"
+msgstr "مرحله ۱۰"
+
+#: vue-app/src/views/faq/data.js:37
+msgid "Click \"Save Connection\"."
+msgstr "روی \"ذخیره اتصال\" کلیک کنید."
+
+#: vue-app/src/views/faq/data.js:44
+msgid "How to Create a New HTTP Connection"
+msgstr "چگونگی ایجاد یک اتصال HTTP جدید"
+
+#: vue-app/src/views/faq/data.js:45
+msgid "Connect your WordPress site using the HTTP API — no FTP required."
+msgstr ""
+"سایت وردپرسی خود را با استفاده از HTTP API متصل کنید — نیازی به FTP نیست."
+
+#: vue-app/src/views/faq/data.js:47
+msgid ""
+"The HTTP protocol uses a lightweight API file that must be installed on the "
+"destination server before you can transfer files. This method is useful when "
+"FTP ports are blocked or when you prefer a simpler setup."
+msgstr ""
+"پروتکل HTTP از یک فایل API سبک استفاده می‌کند که پیش از امکان انتقال فایل‌ها، "
+"باید روی سرور مقصد نصب شود. این روش زمانی مفید است که پورت‌های FTP مسدود باشند "
+"یا ترجیح دهید از روشی ساده‌تر برای راه‌اندازی استفاده کنید."
+
+#: vue-app/src/views/faq/data.js:51
+msgid "Enter a descriptive name (e.g., \"My HTTP Server\")."
+msgstr "یک نام توصیفی وارد کنید (مثلاً \"سرور HTTP من\")."
+
+#: vue-app/src/views/faq/data.js:52
+msgid "Select \"HTTP\" from the \"Connection Protocol\" dropdown."
+msgstr "از منوی کشویی \"پروتکل اتصال\" ، گزینه \"HTTP\" را انتخاب کنید."
+
+#: vue-app/src/views/faq/data.js:53
+msgid ""
+"Copy the generated \"API Key\" — you will need it during API installation."
+msgstr ""
+"\"API Key\" (کلید API) تولیدشده را کپی کنید؛ در حین نصب API به آن نیاز خواهید "
+"داشت."
+
+#: vue-app/src/views/faq/data.js:54
+msgid "Enter the \"Domain\" of the destination server."
+msgstr "\"دامنه\" (Domain) سرور مقصد را وارد کنید."
+
+#: vue-app/src/views/faq/data.js:55 vue-app/src/views/faq/data.js:73
+msgid "Click \"Download API\" to get the http-api.zip file."
+msgstr "برای دریافت فایل api ، روی دکمه \"دانلود API\" کلیک کنید."
+
+#: vue-app/src/views/faq/data.js:56
+msgid "Upload and extract http-api.zip on the destination server."
+msgstr "فایل را در سرور مقصد آپلود و استخراج کنید."
+
+#: vue-app/src/views/faq/data.js:57
+msgid "Open the API config file and paste your API Key."
+msgstr "فایل پیکربندی API را باز کنید و کلید API خود را در آن جای‌گذاری کنید."
+
+#: vue-app/src/views/faq/data.js:58 vue-app/src/views/faq/data.js:79
+msgid "Test the API by visiting https://your-domain.com/http-api/"
+msgstr "با مراجعه به https://your-domain.com/http-api/، API را آزمایش کنید."
+
+#: vue-app/src/views/faq/data.js:59
+msgid "Return to WordPress and click \"Save Connection\"."
+msgstr "به وردپرس بازگردید و روی \"ذخیره تنظیمات\" کلیک کنید."
+
+#: vue-app/src/views/faq/data.js:66
+msgid "How to Install the HTTP API on the Remote Server"
+msgstr "نحوه نصب HTTP API روی سرور هاست دانلود"
+
+#: vue-app/src/views/faq/data.js:67
+msgid ""
+"A complete step-by-step guide to installing the API required for HTTP "
+"connections."
+msgstr "راهنمای کامل و گام‌به‌گام نصب API مورد نیاز برای اتصالات HTTP."
+
+#: vue-app/src/views/faq/data.js:69
+msgid ""
+"The HTTP connection type requires a small PHP API file to be installed on the "
+"destination server. This API acts as a bridge between your WordPress site and "
+"the remote server."
+msgstr ""
+"نوع اتصال HTTP نیازمند نصب یک فایل API کوچکِ PHP روی سرور مقصد است. این API به "
+"عنوان پلی میان سایت وردپرسی شما و سرور عمل می‌کند."
+
+#: vue-app/src/views/faq/data.js:72
+msgid "Create a new HTTP connection and copy its API Key."
+msgstr "یک اتصال HTTP جدید ایجاد کنید و کلید API آن را کپی کنید."
+
+#: vue-app/src/views/faq/data.js:74
+msgid "Connect to your destination server via cPanel, FTP, or SSH."
+msgstr "از طریق cPanel، FTP یا SSH به سرور مقصد خود متصل شوید."
+
+#: vue-app/src/views/faq/data.js:75
+msgid "Upload http-api.zip to the public_html directory."
+msgstr "فایل api را در پوشه public_html آپلود کنید."
+
+#: vue-app/src/views/faq/data.js:76
+msgid "Extract the zip file. You should see a folder named \"http-api\"."
+msgstr "فایل زیپ را استخراج کنید."
+
+#: vue-app/src/views/faq/data.js:77
+msgid "Open the config file inside and paste your API Key."
+msgstr ""
+"فایل پیکربندی موجود در آن را باز کنید و کلید API خود را در آن جای‌گذاری کنید."
+
+#: vue-app/src/views/faq/data.js:78
+msgid "Save the file. Set permissions to 644."
+msgstr "فایل را ذخیره کنید. سطح دسترسی را روی ۶۴۴ تنظیم کنید."
+
+#: vue-app/src/views/faq/data.js:80
+msgid "If everything is correct, you will see a success response."
+msgstr "اگر همه چیز درست باشد، پاسخ موفقیت‌آمیزی را مشاهده خواهید کرد."
+
+#: vue-app/src/views/faq/data.js:87
+msgid "How to Transfer a File to the Remote Server"
+msgstr "نحوه انتقال فایل به سرور یا هاست دانلود"
+
+#: vue-app/src/views/faq/data.js:88
+msgid "Move files from your WordPress media library to a connected server."
+msgstr "فایل‌ها را از کتابخانه رسانه وردپرس خود به سرور منتقل کنید."
+
+#: vue-app/src/views/faq/data.js:90
+msgid ""
+"Once you have at least one active connection, you can transfer any file from "
+"your WordPress media library to the remote server. The transfer process "
+"automatically updates all references in your database."
+msgstr ""
+"پس از برقراری حداقل یک اتصال فعال، می‌توانید هر فایلی را از کتابخانه رسانه‌ای "
+"وردپرس خود به سرور راه دور منتقل کنید. فرآیند انتقال، تمامی ارجاعات موجود در "
+"پایگاه داده شما را به‌طور خودکار به‌روزرسانی می‌کند."
+
+#: vue-app/src/views/faq/data.js:93
+msgid "Go to \"Media\" → \"Library\"."
+msgstr "به «رسانه» ← «کتابخانه» بروید."
+
+#: vue-app/src/views/faq/data.js:94
+msgid "Click on the file you want to transfer."
+msgstr "روی فایلی که می‌خواهید منتقل کنید، کلیک کنید."
+
+#: vue-app/src/views/faq/data.js:95
+msgid "Click the \"Transfer to Server\" button."
+msgstr "روی دکمه \"انتقال به سرور\" کلیک کنید."
+
+#: vue-app/src/views/faq/data.js:96
+msgid "Select one of your active servers from the list."
+msgstr "یکی از سرورهای فعال خود را از لیست انتخاب کنید."
+
+#: vue-app/src/views/faq/data.js:97
+msgid "Click \"Start Transfer\" and wait for completion."
+msgstr "روی \"شروع انتقال\" کلیک کنید و منتظر تکمیل عملیات بمانید."
+
+#: vue-app/src/views/faq/data.js:98
+msgid "The plugin checks references and uploads every image size."
+msgstr ""
+"این افزونه ارجاعات را بررسی کرده و تمام اندازه‌های تصویر را بارگذاری می‌کند."
+
+#: vue-app/src/views/faq/data.js:99
+msgid "Once completed, the file link is automatically updated."
+msgstr "پس از تکمیل، لینک فایل به‌طور خودکار به‌روزرسانی می‌شود."
+
+#: vue-app/src/views/faq/data.js:106
+msgid "How to Restore a File from the Remote Server"
+msgstr "نحوه بازگردانی یک فایل از سرور یا هاست دانلود"
+
+#: vue-app/src/views/faq/data.js:107
+msgid "Bring a transferred file back to your WordPress media library."
+msgstr "فایل منتقل‌شده را به کتابخانه رسانه وردپرس خود بازگردانید."
+
+#: vue-app/src/views/faq/data.js:109
+msgid ""
+"If you ever need to bring a file back from the remote server, the restore "
+"process works exactly like the transfer but in reverse. All image sizes will "
+"be downloaded back and all references updated."
+msgstr ""
+"اگر زمانی نیاز داشته باشید فایلی را از هاست دانلود بازگردانید، فرآیند بازیابی "
+"دقیقاً مشابه فرآیند انتقال، اما به صورت معکوس انجام می‌شود. تمام اندازه‌های تصویر "
+"مجدداً دانلود شده و تمامی ارجاعات به‌روزرسانی خواهند شد."
+
+#: vue-app/src/views/faq/data.js:112
+msgid "Go to \"Media\" → \"Library\" and locate the transferred file."
+msgstr ""
+"به مسیر \"رسانه\" (Media) ← \"کتابخانه\" (Library) بروید و فایل منتقل‌شده را "
+"پیدا کنید."
+
+#: vue-app/src/views/faq/data.js:113
+msgid "Click the \"Restore from Server\" button."
+msgstr "روی دکمه \"بازیابی از سرور\" کلیک کنید."
+
+#: vue-app/src/views/faq/data.js:114
+msgid "Review the file information."
+msgstr "اطلاعات فایل را بررسی کنید."
+
+#: vue-app/src/views/faq/data.js:115
+msgid "Click \"Start Restore\" to begin."
+msgstr "برای شروع، روی \"بازگردانی\" کلیک کنید."
+
+#: vue-app/src/views/faq/data.js:116
+msgid "The plugin downloads the original file and all thumbnails."
+msgstr "این افزونه فایل اصلی و تمام تصاویر بندانگشتی را بازگردانی می‌کند."
+
+#: vue-app/src/views/faq/data.js:117
+msgid "All references are updated to point back to local files."
+msgstr "تمامی ارجاعات به‌گونه‌ای به‌روزرسانی شده‌اند که به فایل‌های محلی اشاره کنند."
+
+#: vue-app/src/views/faq/data.js:124
+msgid "How to Automate Transfers with Cron Job"
+msgstr "چگونه انتقال‌ها را با استفاده از کرون جاب خودکار کنیم"
+
+#: vue-app/src/views/faq/data.js:125
+msgid "Schedule automatic file transfers at regular intervals."
+msgstr "انتقال خودکار فایل‌ها را در فواصل زمانی منظم زمان‌بندی کنید."
+
+#: vue-app/src/views/faq/data.js:127
+msgid ""
+"The Cron Job feature allows you to automatically transfer scanned files to "
+"your remote server at regular intervals. This is useful for high-traffic sites."
+msgstr ""
+"قابلیت کرون جاب به شما امکان می‌دهد فایل‌های اسکن‌شده را به‌صورت خودکار و در فواصل "
+"زمانی منظم به سرور راه دور خود منتقل کنید. این ویژگی برای وب‌سایت‌های پربازدید "
+"مفید است."
+
+#: vue-app/src/views/faq/data.js:130
+msgid "Go to \"Magical Connection\" → \"Cron Job\"."
+msgstr "به مسیر \"مجیکال کانکشن\" ← \"کرون جاب\" بروید."
+
+#: vue-app/src/views/faq/data.js:131
+msgid "Toggle the \"Cron Job\" switch to enable."
+msgstr "سویچ \"کرون جاب\" را برای فعال‌سازی تغییر وضعیت دهید(فعال کنید)."
+
+#: vue-app/src/views/faq/data.js:132
+msgid "Choose the \"Run Interval\" (e.g., every 5 minutes)."
+msgstr "\"فاصله زمانی اجرا\" (مثلاً هر ۵ دقیقه) را انتخاب کنید."
+
+#: vue-app/src/views/faq/data.js:133
+msgid "Set \"Files Per Run\"."
+msgstr "\"تعداد فایل در هر اجرا\" را تنظیم کنید."
+
+#: vue-app/src/views/faq/data.js:134
+msgid "Set \"Retry for Failed Files\"."
+msgstr "گزینه \"تلاش مجدد برای فایل‌های ناموفق\" را تنظیم کنید."
+
+#: vue-app/src/views/faq/data.js:135 vue-app/src/views/faq/data.js:172
+msgid "Click \"Save Settings\"."
+msgstr "روی \"ذخیره تنظیمات\" کلیک کنید."
+
+#: vue-app/src/views/faq/data.js:136
+msgid "Click \"Run Manually Now\" to trigger immediately."
+msgstr "برای اجرای فوری، روی \"اجرای دستی\" کلیک کنید."
+
+#: vue-app/src/views/faq/data.js:143
+msgid "How to Scan Files in the Media Library"
+msgstr "نحوه اسکن فایل‌ها در کتابخانه رسانه"
+
+#: vue-app/src/views/faq/data.js:144
+msgid "Analyze your WordPress files to prepare them for transfer."
+msgstr "فایل‌های وردپرس خود را برای آماده‌سازی جهت انتقال، تحلیل کنید."
+
+#: vue-app/src/views/faq/data.js:146
+msgid ""
+"The File Scanner scans your WordPress media library and identifies all files "
+"by type (images, videos, audio, documents)."
+msgstr ""
+"ابزار اسکن فایل، کتابخانه رسانه‌ای وردپرس شما را اسکن کرده و تمام فایل‌ها را بر "
+"اساس نوع (تصاویر، ویدیوها، فایل‌های صوتی و اسناد) شناسایی می‌کند."
+
+#: vue-app/src/views/faq/data.js:149
+msgid "Go to \"Magical Connection\" → \"File Scanner\"."
+msgstr "به مسیر \"مجیکال کانکشن\" ← \"فایل اسکنر\" بروید."
+
+#: vue-app/src/views/faq/data.js:150
+msgid "Click \"Start New Scan\"."
+msgstr "روی \"شروع اسکن جدید\" کلیک کنید."
+
+#: vue-app/src/views/faq/data.js:151
+msgid "Wait for the scan to complete."
+msgstr "منتظر بمانید تا اسکن کامل شود."
+
+#: vue-app/src/views/faq/data.js:152
+msgid "Review the summary — total files and sizes."
+msgstr "خلاصه را بررسی کنید — مجموع فایل‌ها و اندازه‌ها."
+
+#: vue-app/src/views/faq/data.js:153
+msgid "Use the \"File Details by Type\" table for details."
+msgstr "برای مشاهده جزئیات، از جدول \"جزئیات فایل بر اساس نوع\" استفاده کنید."
+
+#: vue-app/src/views/faq/data.js:154
+msgid "Transfer scanned files using FTP or HTTP."
+msgstr "فایل‌های اسکن‌شده را با استفاده از FTP یا HTTP منتقل کنید."
+
+#: vue-app/src/views/faq/data.js:161
+msgid "How to Configure Plugin Settings"
+msgstr "نحوه پیکربندی تنظیمات افزونه"
+
+#: vue-app/src/views/faq/data.js:162
+msgid "Set up the default server, auto-transfer, and user permissions."
+msgstr "هاست دانلود  پیش‌فرض، انتقال خودکار و دسترسی‌های کاربر را تنظیم کنید."
+
+#: vue-app/src/views/faq/data.js:164
+msgid ""
+"The Plugin Settings page lets you configure global behavior — including the "
+"default storage server, automatic transfers, and user permissions."
+msgstr ""
+"صفحه تنظیمات افزونه به شما امکان می‌دهد رفتار کلی را پیکربندی کنید؛ از جمله "
+"سرور ذخیره‌سازی پیش‌فرض، انتقال‌های خودکار و دسترسی‌های کاربران."
+
+#: vue-app/src/views/faq/data.js:167
+msgid "Go to \"Magical Connection\" → \"Plugin Settings\"."
+msgstr "به مسیر \"مجیکال کانکشن\" ← \"تنظیمات افزونه\" بروید."
+
+#: vue-app/src/views/faq/data.js:168
+msgid "Open the \"WP Media Config\" tab."
+msgstr "تب \"تنظیمات رسانه وردپرس\" را باز کنید."
+
+#: vue-app/src/views/faq/data.js:169
+msgid "Enable \"Direct Upload To Remote Server\"."
+msgstr "\"اپلود مستقیم در هاست دانلود\" را فعال کنید."
+
+#: vue-app/src/views/faq/data.js:170
+msgid "Choose your \"Default Storage Server\"."
+msgstr "هاست دانلود پیش‌فرض خود را انتخاب کنید."
+
+#: vue-app/src/views/faq/data.js:171
+msgid "Enable allowed WordPress roles under \"Access Statuses\"."
+msgstr "نقش‌های مجاز وردپرس را در بخش \"وضعیت‌های دسترسی\" فعال کنید."
+
+#: vue-app/src/views/faq/data.js:179
+msgid "Troubleshooting Common Issues"
+msgstr "عیب‌یابی مشکلات رایج"
+
+#: vue-app/src/views/faq/data.js:180
+msgid "Fix the most common connection and transfer problems."
+msgstr "رایج‌ترین مشکلات اتصال و انتقال را برطرف کنید."
+
+#: vue-app/src/views/faq/data.js:182
+msgid ""
+"Most problems are caused by incorrect credentials, firewall restrictions, or "
+"file permission errors. Use the checklist below to diagnose them."
+msgstr ""
+"بیشتر مشکلات ناشی از اطلاعات کاربری نادرست، محدودیت‌های فایروال یا خطاهای مربوط "
+"به مجوزهای فایل هستند. برای عیب‌یابی آن‌ها، از چک‌لیست زیر استفاده کنید."
+
+#: vue-app/src/views/faq/data.js:185
+msgid "Issue 1"
+msgstr "شماره ۱"
+
+#: vue-app/src/views/faq/data.js:185
+msgid "Connection failed — double-check IP, username, password, and port."
+msgstr ""
+"اتصال ناموفق بود؛ لطفاً آدرس IP، نام کاربری، رمز عبور و پورت را دوباره بررسی "
+"کنید."
+
+#: vue-app/src/views/faq/data.js:186
+msgid "Issue 2"
+msgstr "شماره ۲"
+
+#: vue-app/src/views/faq/data.js:186
+msgid "HTTP API error — verify the API Key in the config file."
+msgstr "خطای HTTP API — کلید API را در فایل پیکربندی بررسی کنید."
+
+#: vue-app/src/views/faq/data.js:187
+msgid "Issue 3"
+msgstr "شماره ۳"
+
+#: vue-app/src/views/faq/data.js:187
+msgid "Transfer stalls — check server disk space and PHP max_execution_time."
+msgstr ""
+"عملیات انتقال متوقف می‌شود؛ فضای دیسک سرور و مقدار max_execution_time در PHP را "
+"بررسی کنید."
+
+#: vue-app/src/views/faq/data.js:188
+msgid "Issue 4"
+msgstr "شماره ۴"
+
+#: vue-app/src/views/faq/data.js:188
+msgid "File not found after transfer — check the base path."
+msgstr "فایل پس از انتقال پیدا نشد؛ مسیر پایه را بررسی کنید."
+
+#: vue-app/src/views/faq/data.js:189
+msgid "Issue 5"
+msgstr "شماره ۵"
+
+#: vue-app/src/views/faq/data.js:189
+msgid "Permission denied — set folder 755 and files 644."
+msgstr "دسترسی رد شد — مجوز پوشه را روی ۷۵۵ و فایل‌ها را روی ۶۴۴ تنظیم کنید."
+
+#: vue-app/src/views/faq/data.js:190
+msgid "Issue 6"
+msgstr "شماره ۶"
+
+#: vue-app/src/views/faq/data.js:190
+msgid "Slow transfers — enable passive mode or switch to HTTP."
+msgstr ""
+"سرعت پایین انتقال — حالت Passive را فعال کنید یا به HTTP تغییر وضعیت دهید."
+
+#: vue-app/src/views/faq/data.js:197
+msgid "Security Best Practices"
+msgstr "بهترین روش‌های امنیتی"
+
+#: vue-app/src/views/faq/data.js:198
+msgid "Keep your connections and files safe."
+msgstr "اتصالات و فایل‌های خود را ایمن نگه دارید."
+
+#: vue-app/src/views/faq/data.js:200
+msgid ""
+"When transferring files between servers, security is critical. Always use "
+"secure protocols and keep API Keys private."
+msgstr ""
+"هنگام انتقال فایل‌ها بین سرورها، امنیت از اهمیت حیاتی برخوردار است. همواره از "
+"پروتکل‌های امن استفاده کنید و کلیدهای API را محرمانه نگه دارید."
+
+#: vue-app/src/views/faq/data.js:203
+msgid "Tip 1"
+msgstr "نکته ۱"
+
+#: vue-app/src/views/faq/data.js:203
+msgid "Use SFTP or FTPS instead of plain FTP."
+msgstr "به‌جای FTP معمولی، از SFTP یا FTPS استفاده کنید."
+
+#: vue-app/src/views/faq/data.js:204
+msgid "Tip 2"
+msgstr "نکته ۲"
+
+#: vue-app/src/views/faq/data.js:204
+msgid "Never share your API Key."
+msgstr "هرگز کلید API خود را به اشتراک نگذارید."
+
+#: vue-app/src/views/faq/data.js:205
+msgid "Tip 3"
+msgstr "نکته ۳"
+
+#: vue-app/src/views/faq/data.js:205
+msgid "Restrict transfer permissions to administrators only."
+msgstr "مجوزهای انتقال را تنها به مدیران محدود کنید."
+
+#: vue-app/src/views/faq/data.js:206
+msgid "Tip 4"
+msgstr "نکته ۴"
+
+#: vue-app/src/views/faq/data.js:206
+msgid "Keep WordPress, plugins, and PHP up to date."
+msgstr "وردپرس، افزونه‌ها و PHP را به‌روز نگه دارید."
+
+#: vue-app/src/views/faq/data.js:207
+msgid "Tip 5"
+msgstr "نکته ۵"
+
+#: vue-app/src/views/faq/data.js:207
+msgid "Use HTTPS on both WordPress and destination servers."
+msgstr "از HTTPS هم در وردپرس و هم در سرورهای مقصد استفاده کنید."
+
+#: vue-app/src/views/faq/data.js:208
+msgid "Tip 6"
+msgstr "نکته ۶"
+
+#: vue-app/src/views/faq/data.js:208
+msgid "Regularly check the connection status."
+msgstr "وضعیت اتصال را به‌طور مرتب بررسی کنید."
+
+#: vue-app/src/views/faq/data.js:209
+msgid "Tip 7"
+msgstr "نکته ۷"
+
+#: vue-app/src/views/faq/data.js:209
+msgid "Set strong, unique FTP passwords."
+msgstr "Set strong, unique FTP passwords."
+
+#: vue-app/src/views/faq/data.js:216
+msgid "Frequently Asked Questions"
+msgstr "سؤالات متداول"
+
+#: vue-app/src/views/faq/data.js:217
+msgid "Quick answers to the most common questions."
+msgstr "پاسخ‌های سریع به رایج‌ترین پرسش‌ها."
+
+#: vue-app/src/views/faq/data.js:218
+msgid "Here are the answers to the questions we hear most often."
+msgstr "در اینجا پاسخ‌هایی به سوالاتی که بیش از همه می‌شنویم، آمده است."
+
+#: vue-app/src/views/faq/data.js:220
+msgid "Q: Does it work with any hosting?"
+msgstr "سؤال: آیا با هر نوع هاستی کار می‌کند؟"
+
+#: vue-app/src/views/faq/data.js:220
+msgid "Yes, as long as FTP or HTTP access is available."
+msgstr "بله، تا زمانی که دسترسی FTP یا HTTP امکان‌پذیر باشد."
+
+#: vue-app/src/views/faq/data.js:221
+msgid "Q: Will existing posts break?"
+msgstr "سؤال: آیا پست‌های موجود دچار مشکل خواهند شد؟"
+
+#: vue-app/src/views/faq/data.js:221
+msgid "No. All database references are automatically updated."
+msgstr "خیر. تمام ارجاعات پایگاه داده به‌طور خودکار به‌روزرسانی می‌شوند."
+
+#: vue-app/src/views/faq/data.js:222
+msgid "Q: Can I transfer multiple files?"
+msgstr "سؤال: آیا می‌توانم چندین فایل را منتقل کنم؟"
+
+#: vue-app/src/views/faq/data.js:222
+msgid "Yes. Use File Scanner with Cron Job for bulk transfers."
+msgstr "بله. برای انتقال‌های انبوه، از اسکنر فایل به همراه کرون جاب استفاده کنید."
+
+#: vue-app/src/views/faq/data.js:223
+msgid "Q: Can I restore a transferred file?"
+msgstr "سؤال: آیا می‌توانم فایل منتقل‌شده را بازیابی کنم؟"
+
+#: vue-app/src/views/faq/data.js:223
+msgid "Yes. Click \"Restore from Server\" in the Media Library."
+msgstr "بله. در کتابخانه رسانه، روی گزینه \"بازیابی\" کلیک کنید."
+
+#: vue-app/src/views/faq/data.js:224
+msgid "Q: What if transfer fails?"
+msgstr "سؤال: اگر انتقال با شکست مواجه شود، چه می‌شود؟"
+
+#: vue-app/src/views/faq/data.js:224
+msgid "The plugin retries failed files up to the retry limit."
+msgstr ""
+"این افزونه فایل‌های ناموفق را تا سقف تعداد دفعات مجاز برای تلاش مجدد، دوباره "
+"پردازش می‌کند."
+
+#: vue-app/src/views/faq/data.js:225
+msgid "Q: Is my data safe?"
+msgstr "سؤال: آیا داده‌های من ایمن هستند؟"
+
+#: vue-app/src/views/faq/data.js:225
+msgid "Yes. Use SFTP/FTPS and HTTPS for maximum security."
+msgstr "بله. برای حداکثر امنیت، از SFTP/FTPS و HTTPS استفاده کنید."
+
+#: vue-app/src/views/faq/data.js:226
+msgid "Q: Can I delete a connection?"
+msgstr "سؤال: آیا می‌توانم یک اتصال را حذف کنم؟"
+
+#: vue-app/src/views/faq/data.js:226
+msgid "Yes. Files already transferred are not deleted."
+msgstr "بله. فایل‌هایی که قبلاً منتقل شده‌اند، حذف نمی‌شوند."
+
+#: vue-app/src/views/faq/data.js:227
+msgid "Q: How do I update the API Key?"
+msgstr "سؤال: چگونه می‌توانم کلید API را به‌روزرسانی کنم؟"
+
+#: vue-app/src/views/faq/data.js:227
+msgid "Regenerate it in your HTTP connection settings."
+msgstr "آن را در تنظیمات اتصال HTTP خود بازسازی کنید."
+
+#. Plugin Name of the plugin/theme
+msgid "Magical connection"
+msgstr "مجیکال کانکشن"
+
+#. Description of the plugin/theme
+msgid ""
+"Magical Connection the Most Powerful Toll for Managing FTP servers in WordPress"
+msgstr "مجیکال کانکشن؛ قدرتمندترین ابزار برای مدیریت سرورهای FTP در وردپرس"
+
+#. Author of the plugin/theme
+msgid "Code Art"
+msgstr "کد آرت"
+
+#. Author URI of the plugin/theme
+msgid "https://www.rtl-theme.com/author/code_art/"
+msgstr "https://www.rtl-theme.com/author/code_art/"
+
+#~ msgid "Are you sure?"
+#~ msgstr "آیا اطمینان دارید؟"
+
+#, fuzzy
+#~| msgid "Resolution"
+#~ msgid "option"
+#~ msgstr "رزولوشن"
+
+#~ msgid "Data Saved Successfully."
+#~ msgstr "داده‌ها با موفقیت ذخیره شدند."
+
+#~ msgid "Download"
+#~ msgstr "دانلود"
+
+#~ msgid "Advanced System Settings"
+#~ msgstr "تنظیمات پیشرفته سیستم"
+
+#~ msgid "FTP Settings"
+#~ msgstr "تنظیمات FTP"

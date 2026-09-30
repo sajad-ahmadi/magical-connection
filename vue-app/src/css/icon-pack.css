@@ -1,0 +1,494 @@
+.mg-home-icon {
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    mask-image: url("../../../assets/icons/home.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-image: url("../../../assets/icons/home.svg");
+}
+
+.mg-server-icon {
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    mask-image: url("../../../assets/icons/server.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-image: url("../../../assets/icons/server.svg");
+}
+
+.mg-setting-icon {
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    mask-image: url("../../../assets/icons/settings.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-image: url("../../../assets/icons/settings.svg");
+}
+
+.magical-connection-icon {
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    mask-image: url("../../../assets/icons/settings.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-image: url("../../../assets/icons/settings.svg");
+}
+
+.mg-add-new-icon {
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    mask-image: url("../../../assets/icons/add-solid.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-image: url("../../../assets/icons/add-solid.svg");
+}
+
+.mgs-cron-job-icon {
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    mask-image: url("../../../assets/icons/cronjob.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-image: url("../../../assets/icons/cronjob.svg");
+}
+
+.mg-edit-icon {
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    mask-image: url("../../../assets/icons/tabler_edit.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-image: url("../../../assets/icons/tabler_edit.svg");
+}
+
+.mg-delete-icon {
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    mask-image: url("../../../assets/icons/delete.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-image: url("../../../assets/icons/delete.svg");
+}
+
+.mg-internet-icon {
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    mask-image: url("../../../assets/icons/mdi_internet.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-image: url("../../../assets/icons/mdi_internet.svg");
+}
+
+.mg-tick-icon {
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    mask-image: url("../../../assets/icons/tick.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-image: url("../../../assets/icons/tick.svg");
+}
+
+.mg-warning-icon {
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    mask-image: url("../../../assets/icons/warning.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-image: url("../../../assets/icons/warning.svg");
+}
+
+.mg-rocket-icon {
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    mask-image: url("../../../assets/icons/rocket.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-image: url("../../../assets/icons/rocket.svg");
+}
+
+.mg-server-icon {
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    mask-image: url("../../../assets/icons/server.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-image: url("../../../assets/icons/server.svg");
+}
+
+.mg-play-icon {
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    mask-image: url("../../../assets/icons/play.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-image: url("../../../assets/icons/play.svg");
+}
+
+.mgs-refresh-icon {
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    mask-image: url("../../../assets/icons/refresh.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-image: url("../../../assets/icons/refresh.svg");
+}
+
+.mg-clock-icon {
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    mask-image: url("../../../assets/icons/clock.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-image: url("../../../assets/icons/clock.svg");
+}
+
+.mg-file-icon {
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    mask-image: url("../../../assets/icons/file.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-image: url("../../../assets/icons/file.svg");
+}
+
+.mg-hard-disc-icon {
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    mask-image: url("../../../assets/icons/hard-disk.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-image: url("../../../assets/icons/hard-disk.svg");
+}
+
+.mg-folder-icon {
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    mask-image: url("../../../assets/icons/folder.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-image: url("../../../assets/icons/folder.svg");
+}
+
+.mg-stop-icon {
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    mask-image: url("../../../assets/icons/stop.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-image: url("../../../assets/icons/stop.svg");
+}
+
+.mg-save-icon {
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    mask-image: url("../../../assets/icons/disc.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-image: url("../../../assets/icons/disc.svg");
+}
+
+.mg-speed-icon {
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    mask-image: url("../../../assets/icons/speed.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-image: url("../../../assets/icons/speed.svg");
+}
+
+.mg-docs-icon {
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    mask-image: url("../../../assets/icons/docs.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-image: url("../../../assets/icons/docs.svg");
+}
+
+.mg-image-icon {
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    mask-image: url("../../../assets/icons/image.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-image: url("../../../assets/icons/image.svg");
+}
+
+.mg-audio-icon {
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    mask-image: url("../../../assets/icons/audio.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-image: url("../../../assets/icons/audio.svg");
+}
+
+.mg-clip-icon {
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    mask-image: url("../../../assets/icons/clip.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-image: url("../../../assets/icons/clip.svg");
+}
+
+.mg-download-icon {
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    mask-image: url("../../../assets/icons/download.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-image: url("../../../assets/icons/download.svg");
+}
+
+.mg-eye-icon {
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    mask-image: url("../../../assets/icons/eye.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-image: url("../../../assets/icons/eye.svg");
+}
+
+.mg-borderless-tick-icon {
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    mask-image: url("../../../assets/icons/bl-tick.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-image: url("../../../assets/icons/bl-tick.svg");
+}
+
+.mg-hourglass-icon {
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    mask-image: url("../../../assets/icons/hourglass.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-image: url("../../../assets/icons/hourglass.svg");
+}
+
+.mg-layers-icon {
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    mask-image: url("../../../assets/icons/layers.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-image: url("../../../assets/icons/layers.svg");
+}
+
+.mg-chart-icon {
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    mask-image: url("../../../assets/icons/chart.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-image: url("../../../assets/icons/chart.svg");
+}
+
+.mg-cronjob-icon {
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    mask-image: url("../../../assets/icons/cronjob.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-image: url("../../../assets/icons/cronjob.svg");
+}
+
+.mg-list-icon {
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    mask-image: url("../../../assets/icons/list.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-image: url("../../../assets/icons/list.svg");
+}
+
+.mg-calendar-icon {
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    mask-image: url("../../../assets/icons/calendar.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-image: url("../../../assets/icons/calendar.svg");
+}
+
+.mg-upload-icon {
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    mask-image: url("../../../assets/icons/upload.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-image: url("../../../assets/icons/upload.svg");
+}
+
+.mg-close-icon {
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    mask-image: url("../../../assets/icons/close.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-image: url("../../../assets/icons/close.svg");
+}
+
+.mg-copy-icon {
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    mask-image: url("../../../assets/icons/copy.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-image: url("../../../assets/icons/copy.svg");
+}
+
+.mg-database-icon {
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    mask-image: url("../../../assets/icons/database.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-image: url("../../../assets/icons/database.svg");
+}
+
+.mg-img-size-icon {
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    mask-image: url("../../../assets/icons/img-size.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-image: url("../../../assets/icons/img-size.svg");
+}
+
+.mg-hashtag-icon {
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    mask-image: url("../../../assets/icons/hashtag.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-image: url("../../../assets/icons/hashtag.svg");
+}
+
+.mg-unlock-icon {
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    mask-image: url("../../../assets/icons/unlock.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-image: url("../../../assets/icons/unlock.svg");
+}
+
+.mg-arrow-icon {
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    mask-image: url("../../../assets/icons/row.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-image: url("../../../assets/icons/row.svg");
+}
+
+.mg-information-icon {
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    mask-image: url("../../../assets/icons/information.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-image: url("../../../assets/icons/information.svg");
+}
+
+.mg-sliders-icon {
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    mask-image: url("../../../assets/icons/sliders.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-image: url("../../../assets/icons/sliders.svg");
+}
+
+.mg-plug-icon {
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    mask-image: url("../../../assets/icons/plug.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-image: url("../../../assets/icons/plug.svg");
+}
+
+.mg-user-icon {
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    mask-image: url("../../../assets/icons/user.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-image: url("../../../assets/icons/user.svg");
+}
+
+.mg-lock-icon {
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    mask-image: url("../../../assets/icons/lock.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-image: url("../../../assets/icons/lock.svg");
+}
+
+.mg-filled-folder-icon {
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    mask-image: url("../../../assets/icons/filled-folder.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-image: url("../../../assets/icons/filled-folder.svg");
+}
+
+.mg-large-disc-icon {
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    mask-image: url("../../../assets/icons/large-disc.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-image: url("../../../assets/icons/large-disc.svg");
+}
+
+.mg-question-icon {
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    mask-image: url("../../../assets/icons/question.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-image: url("../../../assets/icons/question.svg");
+}
+
+.mg-alone-tick-icon {
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    mask-image: url("../../../assets/icons/alone-tick.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-image: url("../../../assets/icons/alone-tick.svg");
+}
+
+.mg-connection-icon {
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    mask-image: url("../../../assets/icons/connection.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-image: url("../../../assets/icons/connection.svg");
+}
+
+.mg-scanning-icon {
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    mask-image: url("../../../assets/icons/db-sync.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-image: url("../../../assets/icons/db-sync.svg");
+}
+
+.mg-archive-icon {
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    mask-image: url("../../../assets/icons/archive.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-image: url("../../../assets/icons/archive.svg");
+}

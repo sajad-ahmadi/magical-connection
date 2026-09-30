@@ -1,0 +1,864 @@
+/* ===== تنظیمات پایه ===== */
+.mgs-plugin-wrapper *,
+.mgs-plugin-wrapper *::before,
+.mgs-plugin-wrapper *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Vazirmatn', sans-serif;
+    background-color: #f5f6fa;
+    color: #333;
+}
+
+.mgs-plugin-wrapper {
+    display: flex;
+    min-height: 100vh;
+    direction: rtl;
+    background: #f5f6fa;
+}
+
+/* ===== منوی کناری (Sticky) ===== */
+.mgs-sidebar {
+    background: #1a1c22;
+    color: #a0a3b1;
+    width: 16rem;
+    flex-shrink: 0;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid #2a2d35;
+    z-index: 100;
+}
+
+.mgs-sidebar-header {
+    padding: 1.25rem;
+    border-bottom: 1px solid #2a2d35;
+}
+
+.mgs-logo {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    color: white;
+    font-weight: 800;
+    font-size: 1rem;
+}
+
+.mgs-logo i {
+    font-size: 1.125rem;
+    color: #007bff;
+}
+
+.mgs-sidebar-subtitle {
+    font-size: 0.75rem;
+    margin-top: 0.5rem;
+    color: #666a77;
+}
+
+.mgs-sidebar-nav {
+    flex: 1;
+    overflow-y: auto;
+    padding: 0.625rem 0;
+}
+
+.mgs-sidebar-nav::-webkit-scrollbar {
+    width: 0.3125rem;
+}
+
+.mgs-sidebar-nav::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.mgs-sidebar-nav::-webkit-scrollbar-thumb {
+    background: #3a3d45;
+    border-radius: 0.625rem;
+}
+
+.mgs-menu-group {
+    margin-bottom: 0.9375rem;
+}
+
+.mgs-menu-title {
+    padding: 0.5rem 1.25rem;
+    font-size: 0.6875rem;
+    color: #666a77;
+    font-weight: 700;
+}
+
+.mgs-menu-item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.625rem 1.25rem;
+    color: #a0a3b1;
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.mgs-menu-item:hover {
+    color: white;
+    background: rgba(255,255,255,0.05);
+}
+
+.mgs-menu-item.mgs-active {
+    color: white;
+    background: #007bff;
+}
+
+.mgs-badge {
+    background: #e74c3c;
+    color: white;
+    font-size: 0.625rem;
+    padding: 0.125rem 0.375rem;
+    border-radius: 0.625rem;
+    margin-right: auto;
+}
+
+.mgs-user-badge {
+    background: #6c757d;
+    color: white;
+    font-size: 0.625rem;
+    padding: 0.125rem 0.375rem;
+    border-radius: 0.25rem;
+    margin-right: auto;
+}
+
+.mgs-sidebar-footer {
+    padding: 0.9375rem 1.25rem;
+    font-size: 0.6875rem;
+    color: #666a77;
+    border-top: 1px solid #2a2d35;
+    text-align: center;
+}
+
+/* ===== محتوای اصلی ===== */
+.mgs-content {
+    flex: 1;
+    padding: 1.875rem;
+    max-width: 85rem;
+    margin: 0 auto;
+}
+
+/* ===== هدر صفحه ===== */
+.mgs-page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
+    border: 1px solid #f0f0f0;
+}
+
+.mgs-header-left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.mgs-rcn-ic {
+    display: block;
+    width: .95rem;
+    height: .95rem;
+    background-color: white;
+}
+
+.mgs-btn {
+    font-family: inherit;
+    font-size: 0.875rem;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 8px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s ease;
+}
+
+.mgs-btn-primary {
+    background: var(--mgs-primary-gradient-color);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    box-shadow: var( --mgs-primary-box-shadow );
+}
+
+.mgs-btn-primary:hover {
+    background: var( --mgs-primary-gradient-color-hover );
+    transform: translateY(-3px);
+    box-shadow: var( --mgs-primary-box-shadow-hover );
+}
+
+.mgs-status-badge {
+    background: var( --mgs-secondary-color );
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 1px solid #f0f0f0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.mgs-status-label {
+    font-size: 0.875rem;
+    color: #666;
+}
+
+.mgs-status-active {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #28a745;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.mgs-status-active i {
+    font-size: 0.5rem;
+}
+
+.mgs-header-right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.mgs-title {
+    font-size: 1.375rem;
+    font-weight: 800;
+    color: #333;
+}
+
+.mgs-subtitle {
+    font-size: 0.8125rem;
+    color: #888;
+    margin-top: 4px;
+}
+
+.mgs-header-ic {
+    width: 2rem;
+    height: 2rem;
+    background-color: #007bff;
+    display: block;
+}
+
+.mgs-header-icon {
+    font-size: 2rem;
+    background: #eaf4ff;
+    padding: 0.75rem;
+    border-radius: 12px;
+}
+
+/* ===== کارت‌های آماری ===== */
+.mgs-stats-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.mgs-stat-card {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    border: 1px solid #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s ease;
+    animation: mgsFadeIn 0.5s ease forwards;
+    opacity: 0;
+}
+
+.mgs-stat-card:nth-child(1) { animation-delay: 0.1s; }
+.mgs-stat-card:nth-child(2) { animation-delay: 0.2s; }
+.mgs-stat-card:nth-child(3) { animation-delay: 0.3s; }
+.mgs-stat-card:nth-child(4) { animation-delay: 0.4s; }
+
+.mgs-stat-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.mgs-stat-info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.mgs-stat-label {
+    font-size: 0.8125rem;
+    color: #666;
+}
+
+.mgs-stat-value {
+    font-size: 1.45rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.mgs-stat-value small {
+    font-size: 0.8125rem;
+    font-weight: 500;
+    color: #888;
+}
+
+.mgs-stat-desc {
+    font-size: 0.75rem;
+    color: #999;
+}
+
+.mgs-stat-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+}
+
+.mgs-sd-ic {
+    display: block;
+    width: 1.45rem;
+    height: 1.45rem;
+}
+
+.mgs-icon-orange { background: #fff4e5; }
+.mgs-icon-orange .mgs-sd-ic {
+    background-color: #f39c12;
+}
+.mgs-icon-purple { background: #f3e8ff; }
+.mgs-icon-purple .mgs-sd-ic {
+    background-color: #9b59b6;
+}
+.mgs-icon-blue { background: #eaf4ff; }
+.mgs-icon-blue .mgs-sd-ic {
+    background-color: #007bff;
+}
+.mgs-icon-green { background: #e6fff0; }
+.mgs-icon-green .mgs-sd-ic {
+    background-color: #28a745;
+}
+
+/* ===== بخش دو ستونه ===== */
+.mgs-two-columns {
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+    gap: 1.5rem;
+    align-items: start;
+    margin-top: 1.5rem;
+}
+
+/* ===== کارت‌ها ===== */
+.mgs-card {
+    background: white;
+    border-radius: 12px;
+    padding: 24px;
+    border: 1px solid #f0f0f0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
+}
+
+.mgs-card:hover {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.mgs-card-title {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* ===== پیش نمایش زمان بندی ===== */
+.mgs-alert-success {
+    background: #e6fff0;
+    border: 1px solid #b8e6bf;
+    border-radius: 10px;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #28a745;
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.mgs-timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.mgs-timeline-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 16px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    border: 1px solid #f1f1f1;
+    transition: all 0.3s ease;
+}
+
+.mgs-timeline-item:hover {
+    background: #eaf4ff;
+    border-color: #c5d9ed;
+}
+
+.mgs-timeline-label {
+    font-size: 0.875rem;
+    color: #666;
+    font-weight: 600;
+}
+
+.mgs-timeline-value {
+    font-size: 0.875rem;
+    color: #333;
+    font-weight: 600;
+}
+
+.mgs-er-ic {
+    width: 1.2rem;
+    height: 1.2rem;
+    display: block;
+    background-color: #999;
+}
+
+.mgs-nr-ic {
+    width: 1rem;
+    height: 1rem;
+    display: block;
+    background-color: #999;
+}
+
+.mgs-timeline-value small {
+    font-size: 0.75rem;
+    color: #999;
+}
+
+.mgs-timeline-icon {
+    color: #999;
+}
+
+.mgs-timeline-current {
+    background: #eaf4ff;
+    border-color: #c5d9ed;
+}
+
+.mgs-current-badge {
+    background: #28a745;
+    color: white;
+    font-size: 0.6875rem;
+    padding: 4px 8px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+.mgs-lsc-ic {
+    background-color: #28a745;
+    width: 1.2rem;
+    height: 1.2rem;
+    display: block;
+}
+
+.mgs-timeline-list {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.mgs-timeline-times {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 8px;
+    width: 100%;
+}
+
+.mgs-timeline-times span {
+    font-size: 0.75rem;
+    color: #666;
+    background: white;
+    padding: 4px 8px;
+    border-radius: 6px;
+    text-align: center;
+    border: 1px solid #f1f1f1;
+    transition: all 0.2s;
+}
+
+.mgs-timeline-times span:hover {
+    color: var(--mgs-primary-color);
+    border-color: var(--mgs-primary-color);
+}
+
+.mgs-preview-actions {
+    display: flex;
+    gap: 12px;
+    margin-top: 16px;
+}
+
+.mgs-cc-ic {
+    display: block;
+    width: 1.1rem;
+    height: 1.1rem;
+    background-color: #d63031;
+}
+
+.mgs-scl-ic {
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    background-color: black;
+    transition: all 0.2s ease;
+}
+
+.mgs-btn-outline {
+    background: white;
+    border: 1px solid #ddd;
+    color: #333;
+    padding: 10px 16px;
+    flex: 1;
+    justify-content: center;
+}
+
+.mgs-btn-outline:hover {
+    background: #f5f5f5;
+    border-color: #007bff;
+    color: #007bff;
+}
+
+.mgs-btn-outline:hover .mgs-scl-ic {
+    background-color: #007bff;
+}
+
+.mgs-btn-danger-outline {
+    background: #fff5f5;
+    border: 1px solid #ffcccc;
+    color: #d63031;
+    padding: 10px 12px;
+    flex: 1;
+    justify-content: center;
+}
+
+.mgs-btn-danger-outline:hover {
+    background: #ffe5e5;
+}
+
+/* ===== تنظیمات کرون جاب ===== */
+.mgs-settings-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.mgs-settings-header .mgs-card-title {
+    margin-bottom: 0;
+}
+
+/* نوار پیشرفت خطی تمیز و بدون باگ */
+.mgs-countdown-bar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.75rem;
+    color: #646970;
+    background: #f6f7f7;
+    padding: 6px 12px;
+    border-radius: 20px;
+    border: 1px solid #f0f0f1;
+}
+
+.mgs-countdown-track {
+    width: 60px;
+    height: 6px;
+    background: #e0e0e0;
+    border-radius: 10px;
+    overflow: visible; /* برای نمایش تولتیپ باید visible باشد */
+    position: relative; /* برای قرارگیری تولتیپ */
+    cursor: pointer;
+}
+
+.mgs-countdown-fill {
+    width: 60%;
+    height: 100%;
+    background: var( --mgs-primary-gradient-color );
+    border-radius: 10px;
+    animation: mgsLinearCountdown 5s linear infinite;
+}
+
+@keyframes mgsLinearCountdown {
+    from { width: 100%; }
+    to { width: 0%; }
+}
+
+/* با هاور، انیمیشن نوار مکث می‌کند */
+.mgs-countdown-wrap:hover .mgs-countdown-fill {
+    animation-play-state: paused;
+}
+
+/* انیمیشن نوار پیشرفت (با تولتیپ هماهنگ است) */
+.mgs-countdown-fill {
+    width: 60%;
+    height: 100%;
+    background: linear-gradient(90deg, #007bff, #00b4d8);
+    border-radius: 10px;
+    animation: mgsLinearCountdown 5s linear infinite;
+}
+
+/* برای اینکه تولتیپ با انیمیشن نوار هماهنگ شود، می‌توانید انیمیشن را متوقف یا همگام کنید */
+.mgs-has-tooltip:hover .mgs-countdown-fill {
+    animation-play-state: paused; /* با هاور، نوار مکث می‌کند */
+}
+
+@keyframes mgsLinearCountdown {
+    from { width: 100%; }
+    to { width: 0%; }
+}
+
+.mgs-setting-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.mgs-setting-row:last-of-type {
+    border-bottom: none;
+}
+
+.mgs-setting-info {
+    flex: 1;
+    margin-left: 16px;
+}
+
+.mgs-setting-info label {
+    font-size: 0.9375rem;
+    font-weight: 600;
+    color: #333;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.mgs-setting-info p {
+    font-size: 0.8125rem;
+    color: #888;
+    max-width: 400px;
+}
+
+.mgs-input-group {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 8px 12px;
+    transition: all 0.3s ease;
+}
+
+.mg-nrc-ic {
+    display: block;
+    width: 0.9rem;
+    height: 0.9rem;
+    background-color: #999;
+}
+
+.mgs-input-group:focus-within {
+    border-color: #007bff;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.1);
+}
+
+.mgs-input {
+    border: none;
+    outline: none;
+    font-family: inherit;
+    font-size: 0.875rem;
+    color: #333;
+    width: 80px;
+    text-align: left;
+    direction: ltr;
+}
+
+.mgs-input-suffix {
+    font-size: 0.8125rem;
+    color: #888;
+}
+
+.mgs-input-icon {
+    color: #999;
+    font-size: 0.875rem;
+}
+
+.mgs-select-wrapper {
+    position: relative;
+    width: 120px;
+}
+
+.mgs-select {
+    width: 100%;
+    padding: 0 12px;
+    border: none;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 0.875rem;
+    color: #333;
+    background: white;
+    appearance: none;
+    cursor: pointer;
+}
+
+.mgs-select-wrapper i {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888;
+    pointer-events: none;
+    font-size: 0.75rem;
+}
+
+.mgs-settings-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    padding-top: 16px;
+}
+
+/* ===== نحوه کارکرد ===== */
+.mgs-how-it-works {
+    margin-top: 1.5rem;
+}
+
+.mgs-steps {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+}
+
+.mgs-step {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px;
+    background: #f9f9f9;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+.mgs-step:hover {
+    background: white;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transform: translateY(-2px);
+}
+
+.mgs-step-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 1.125rem;
+    flex-shrink: 0;
+}
+
+.mgs-step-1 { background: #eaf4ff; color: #007bff; }
+.mgs-step-2 { background: #e6fff0; color: #28a745; }
+.mgs-step-3 { background: #fff4e5; color: #f39c12; }
+.mgs-step-4 { background: #f3e8ff; color: #9b59b6; }
+
+.mgs-step-info {
+    flex: 1;
+}
+
+.mgs-step-info strong {
+    font-size: 0.875rem;
+    color: #333;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.mgs-step-info p {
+    font-size: 0.75rem;
+    color: #888;
+}
+
+.mgs-step-arrow {
+    color: #ccc;
+    font-size: 0.875rem;
+}
+
+/* ===== ریسپانسیو ===== */
+@media (max-width: 1200px) {
+    .mgs-two-columns {
+        grid-template-columns: 1fr;
+    }
+
+    .mgs-stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .mgs-steps {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .mgs-sidebar {
+        width: 4.375rem;
+    }
+
+    .mgs-sidebar-header, .mgs-sidebar-footer {
+        display: none;
+    }
+
+    .mgs-menu-item {
+        justify-content: center;
+        padding: 0.625rem;
+    }
+
+    .mgs-menu-item span, .mgs-menu-title, .mgs-badge, .mgs-user-badge {
+        display: none;
+    }
+
+    .mgs-page-header {
+        flex-direction: column;
+        gap: 16px;
+        align-items: flex-start;
+    }
+
+    .mgs-stats-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .mgs-steps {
+        grid-template-columns: 1fr;
+    }
+
+    .mgs-setting-row {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    .mgs-input-group, .mgs-select-wrapper {
+        width: 100%;
+    }
+}

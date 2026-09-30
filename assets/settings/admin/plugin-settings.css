@@ -1,0 +1,271 @@
+.mgs-settings-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    direction: rtl;
+}
+
+.mgs-settings-header {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    align-items: center;
+    background: white;
+    padding: 20px 24px;
+    border-radius: 12px;
+    border: 1px solid #f0f0f0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
+    margin-bottom: 24px;
+}
+
+.mgs-settings-title {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #1d2327;
+}
+
+.mgs-settings-icon {
+    position: relative;
+    background: #f0f0f1;
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mgs-sh-ic {
+    width: 1.25rem;
+    height: 1.25rem;
+    background-color: #50575e;
+}
+
+.mgs-settings-dot {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #00a32a;
+    box-shadow: 0 0 8px rgba(0, 163, 42, 0.5);
+}
+
+/* ===== تب‌ها ===== */
+.mgs-tabs-container {
+    background: white;
+    border-radius: 12px;
+    border: 1px solid #f0f0f0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
+    overflow: hidden;
+}
+
+.mgs-tabs-list {
+    display: flex;
+    justify-content: center;
+    background: #f9f9f9;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 10px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.mgs-tab-btn {
+    font-family: inherit;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #646970;
+    background: transparent;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s ease;
+}
+
+.mgs-tab-btn .mgs-tb-ic {
+    width: 1rem;
+    height: 1rem;
+    background-color: #646970;
+}
+
+.mgs-tab-btn:hover {
+    background: rgba(0, 0, 0, 0.03);
+    color: var(--mgs-primary-color);
+}
+
+.mgs-tab-btn:hover .mgs-tb-ic {
+    background-color: var(--mgs-primary-color);
+}
+
+.mgs-tab-btn.mgs-tab-active {
+    background: var(--mgs-primary-color);
+    color: white;
+    box-shadow: var(--mgs-primary-box-shadow);
+}
+
+.mgs-tab-btn.mgs-tab-active .mgs-tb-ic {
+    background-color: white;
+}
+
+/* ===== محتوای تب‌ها ===== */
+.mgs-tab-content {
+    display: none;
+    padding: 24px;
+    animation: mgsTabFadeIn 0.3s ease;
+}
+
+.mgs-tab-content.mgs-tab-active {
+    display: block;
+}
+
+@keyframes mgsTabFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ===== باکس‌های تنظیمات ===== */
+.mgs-setting-box {
+    background: white;
+    border: 1px solid #f0f0f0;
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+.mgs-setting-box:hover {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
+}
+
+.mgs-box-title {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #1d2327;
+    margin-bottom: 16px;
+}
+
+/* ===== ردیف تنظیمات (سوییچ‌ها) ===== */
+.mgs-setting-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 12px 0;
+    border-bottom: 1px solid #f0f0f1;
+    gap: 16px;
+    min-width: 0;
+    flex-wrap: wrap;
+}
+
+.mgs-setting-row:last-of-type {
+    border-bottom: none;
+}
+
+.mgs-setting-info {
+    flex: 1;
+    min-width: 200px;
+}
+
+.mgs-setting-info h3 {
+    font-size: 0.9375rem;
+    font-weight: 600;
+    color: #1d2327;
+    margin-bottom: 4px;
+    cursor: default;
+}
+
+.mgs-setting-info p {
+    font-size: 0.8125rem;
+    color: #646970;
+    word-break: break-word;
+    cursor: default;
+}
+
+.mgs-label-text {
+    font-size: 0.9375rem;
+    font-weight: 600;
+    color: #1d2327;
+}
+
+.mgs-setting-note {
+    background: #f9f9f9;
+    border-radius: 8px;
+    padding: 12px;
+    margin-top: 16px;
+    font-size: 0.8125rem;
+    color: #646970;
+    text-align: right;
+}
+
+/* ===== دکمه ذخیره ===== */
+.mgs-save-bar {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    background: #f9f9f9;
+    border-top: 1px solid #f0f0f0;
+}
+
+.mgs-btn-save {
+    background: var(--mgs-primary-gradient-color);
+    border: none;
+    color: white;
+    font-family: inherit;
+    font-size: 0.875rem;
+    font-weight: 600;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s ease;
+    box-shadow: var(--mgs-primary-box-shadow);
+}
+
+.mgs-sst-ic {
+    background-color: white;
+    width: .75rem;
+    height: .75rem;
+}
+
+.mgs-btn-save:hover {
+    background: var(--mgs-primary-gradient-color-hover);
+    transform: translateY(-2px);
+    box-shadow: var(--mgs-primary-box-shadow-hover)
+}
+
+/* ===== ریسپانسیو ===== */
+@media (max-width: 768px) {
+    .mgs-settings-wrapper {
+        padding: 20px;
+    }
+
+    .mgs-tabs-list {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .mgs-tab-btn {
+        justify-content: center;
+    }
+
+    .mgs-form-row {
+        flex-direction: column;
+    }
+
+    .mgs-setting-row {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

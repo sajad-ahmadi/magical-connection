@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 360" width="400" height="360">
+  <defs>
+    <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.16"/>
+      <stop offset="60%" stop-color="#8b5cf6" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="circleShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="8"/>
+      <feOffset dx="0" dy="6"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.12"/></feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="cardShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="4"/>
+      <feOffset dx="0" dy="3"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.18"/></feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <circle cx="200" cy="200" r="150" fill="url(#glow)"/>
+
+  <circle cx="200" cy="200" r="100" fill="none"
+          stroke="url(#ringGrad)" stroke-width="2.5"
+          stroke-dasharray="10 8" stroke-linecap="round"
+          opacity="0.45">
+    <animateTransform attributeName="transform" type="rotate"
+                      from="0 200 200" to="360 200 200"
+                      dur="40s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="200" cy="200" r="80" fill="#ffffff"
+          stroke="#e2e8f0" stroke-width="1.5"
+          filter="url(#circleShadow)"/>
+
+  <!-- ═══ تقویم ═══ -->
+  <g filter="url(#cardShadow)">
+    <rect x="172" y="132" width="5" height="16" rx="2.5" fill="#4f46e5"/>
+    <rect x="223" y="132" width="5" height="16" rx="2.5" fill="#4f46e5"/>
+
+    <rect x="152" y="142" width="96" height="106" rx="10"
+          fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+
+    <path d="M 152 152 Q 152 142 162 142 L 238 142 Q 248 142 248 152 L 248 168 L 152 168 Z"
+          fill="url(#headerGrad)"/>
+
+    <line x1="152" y1="168" x2="248" y2="168"
+          stroke="#c7d2fe" stroke-width="1" opacity="0.6"/>
+
+    <circle cx="168" cy="155" r="2.5" fill="#ffffff" opacity="0.85"/>
+    <circle cx="180" cy="155" r="2.5" fill="#ffffff" opacity="0.55"/>
+    <circle cx="192" cy="155" r="2.5" fill="#ffffff" opacity="0.35"/>
+
+    <rect x="164" y="182" width="14" height="12" rx="3" fill="#e2e8f0" opacity="0.5"/>
+    <rect x="184" y="182" width="14" height="12" rx="3" fill="#e2e8f0" opacity="0.5"/>
+    <rect x="204" y="182" width="14" height="12" rx="3" fill="#e2e8f0" opacity="0.5"/>
+    <rect x="224" y="182" width="14" height="12" rx="3" fill="#e2e8f0" opacity="0.35"/>
+
+    <rect x="164" y="200" width="14" height="12" rx="3" fill="#e2e8f0" opacity="0.5"/>
+    <rect x="184" y="200" width="14" height="12" rx="3" fill="#e2e8f0" opacity="0.5"/>
+    <rect x="204" y="200" width="14" height="12" rx="3" fill="#e2e8f0" opacity="0.5"/>
+    <rect x="224" y="200" width="14" height="12" rx="3" fill="#e2e8f0" opacity="0.35"/>
+
+    <rect x="164" y="218" width="14" height="12" rx="3" fill="#e2e8f0" opacity="0.5"/>
+    <rect x="184" y="218" width="14" height="12" rx="3" fill="#e2e8f0" opacity="0.5"/>
+    <rect x="204" y="218" width="14" height="12" rx="3" fill="#e2e8f0" opacity="0.5"/>
+    <rect x="224" y="218" width="14" height="12" rx="3" fill="#e2e8f0" opacity="0.35"/>
+  </g>
+
+  <circle cx="211" cy="206" r="14" fill="#8b5cf6" opacity="0.12">
+    <animate attributeName="opacity" values="0.18;0.05;0.18" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+
+  <rect x="204" y="200" width="14" height="12" rx="3"
+        fill="none" stroke="#8b5cf6" stroke-width="2"
+        stroke-dasharray="3 2.5"/>
+
+  <circle cx="211" cy="206" r="1.8" fill="#a78bfa" opacity="0.7">
+    <animate attributeName="opacity" values="0.7;0.2;0.7" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="176" cy="320" r="3.5" fill="#c7d2fe">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="1.4s" begin="0s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="200" cy="320" r="3.5" fill="#a78bfa">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="1.4s" begin="0.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="224" cy="320" r="3.5" fill="#8b5cf6">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="1.4s" begin="0.4s" repeatCount="indefinite"/>
+  </circle>
+
+  <text x="200" y="400" text-anchor="middle"
+        font-family="Vazirmatn, Vazir, Tahoma, sans-serif"
+        font-size="19" font-weight="600"
+        fill="#4c1d95" letter-spacing="0.3">
+    کرون جاب تنظیم نشده است
+    <animate attributeName="opacity" values="1;0.55;1" dur="3.2s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- خط تزئینی زیر متن -->
+  <line x1="130" y1="422" x2="270" y2="422"
+        stroke="#c4b5fd" stroke-width="1.5" stroke-linecap="round"
+        opacity="0.6">
+    <animate attributeName="opacity" values="0.6;0.2;0.6" dur="3.2s" repeatCount="indefinite"/>
+  </line>
+</svg>

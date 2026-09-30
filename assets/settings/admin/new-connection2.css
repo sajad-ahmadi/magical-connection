@@ -1,0 +1,496 @@
+/* ===== غیرفعال کردن ترنزیشن‌ها در زمان لود ===== */
+.mgs-no-transition *,
+.mgs-no-transition *::before,
+.mgs-no-transition *::after {
+    transition: none !important;
+}
+
+/* ===== تنظیمات پایه ===== */
+.mgs-form-body {
+    background: #f5f6fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.mgs-form-wrapper *,
+.mgs-form-wrapper *::before,
+.mgs-form-wrapper *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.mgs-form-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    direction: rtl;
+}
+
+/* ===== انیمیشن لود ===== */
+.mgs-animate-in {
+    opacity: 0;
+    animation: mgsFadeInUp 0.5s ease forwards;
+}
+
+@keyframes mgsFadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ===== هدر فرم ===== */
+.mgs-form-header {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    align-items: center;
+    background: white;
+    padding: 20px 24px;
+    border-radius: 12px;
+    border: 1px solid #f0f0f0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
+    margin-bottom: 24px;
+}
+
+.mgs-form-title {
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: #1d2327;
+}
+
+.mgs-header-icon {
+    position: relative;
+    background: #f0f0f1;
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mgs-ench-ic {
+    background-color: #50575e;
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.mgs-header-dot {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #00a32a;
+    box-shadow: 0 0 8px rgba(0, 163, 42, 0.5);
+}
+
+/* ===== بدنه فرم (دو ستونه) ===== */
+.mgs-form-body-grid {
+    display: grid;
+    grid-template-columns: 1.5fr 0.8fr;
+    gap: 24px;
+}
+
+/* ===== کارت‌ها ===== */
+.mgs-card {
+    background: white;
+    border-radius: 12px;
+    padding: 24px;
+    border: 1px solid #f0f0f0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
+}
+
+.mgs-card-title {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #1d2327;
+    margin-bottom: 20px;
+}
+
+/* ===== فرم‌ها ===== */
+.mgs-form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.mgs-form-group label {
+    font-size: 0.8125rem;
+    font-weight: 600;
+    color: #1d2327;
+}
+
+.mgs-input-group {
+    display: flex;
+    align-items: center;
+    background: white;
+    border: 1px solid #dcdcde;
+    border-radius: 8px;
+    padding: 10px 12px;
+    transition: all 0.3s;
+}
+
+.mgs-input-group:focus-within {
+    border-color: #2271b1;
+    box-shadow: 0 0 0 3px rgba(34, 113, 177, 0.1);
+}
+
+.mgs-input-group i {
+    color: #646970;
+    font-size: 0.875rem;
+    flex-shrink: 0;
+}
+
+.mgs-input {
+    border: none;
+    outline: none;
+    font-family: inherit;
+    font-size: 0.875rem;
+    color: #1d2327;
+    width: 100%;
+    background: transparent;
+    direction: ltr;
+    text-align: left;
+    min-width: 0;
+}
+
+/* ===== سلکت ===== */
+.mgs-select-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.mgs-select {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #dcdcde;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 0.875rem;
+    color: #1d2327;
+    background: white;
+    appearance: none;
+    cursor: pointer;
+}
+
+.mgs-select-wrapper i {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #646970;
+    pointer-events: none;
+    font-size: 0.75rem;
+}
+
+/* ===== سوییچ ===== */
+.mgs-switch-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.mgs-switch-label {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #1d2327;
+}
+
+/* ===== هشدار ===== */
+.mgs-alert-box {
+    background: #fcf0f1;
+    border: 1px solid #d63638;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 20px;
+    font-size: 0.8125rem;
+    color: #d63638;
+    text-align: center;
+}
+
+/* ===== دکمه‌های فرم ===== */
+.mgs-form-actions {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.mgs-btn {
+    font-family: inherit;
+    font-size: 0.875rem;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 8px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s ease;
+    padding: 12px 24px;
+}
+
+.mgs-btn-save {
+    background: var(--mgs-primary-gradient-color);
+    border: none;
+    color: white;
+    box-shadow: 0 4px 12px rgba(34, 113, 177, 0.3);
+}
+
+.mgs-btn-save:hover {
+    background: var(--mgs-primary-gradient-color-hover);
+    transform: translateY(-2px);
+    box-shadow: var(--mgs-primary-box-shadow-hover)
+}
+
+.mgs-btn-cancel {
+    background: white;
+    border: 1px solid #dcdcde;
+    color: #50575e;
+}
+
+.mgs-btn-cancel:hover {
+    background: #f6f7f7;
+    border-color: var(--mgs-primary-color-hover);
+    color: var(--mgs-primary-color-hover);
+}
+
+/* ===== ستون وضعیت اتصال ===== */
+.mgs-status-card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: fit-content;
+}
+
+.mgs-status-badge {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+/* حالت 1: اتصال موفق */
+.mgs-status-success {
+    background: #edfaef;
+    border: 1px solid #b8e6bf;
+    color: #00a32a;
+}
+
+.mgs-sb-ic {
+    width: 1.35rem;
+    height: 1.35rem;
+}
+
+.mgs-status-success .mgs-sb-ic {
+    background-color: #00a32a;
+}
+
+/* حالت 2: در حال اتصال */
+.mgs-status-connecting {
+    background: #e6f1f8;
+    border: 1px solid #c5d9ed;
+    color: #2271b1;
+}
+
+.mgs-status-connecting i {
+    font-size: 1.25rem;
+    animation: mgsSpin 1s linear infinite;
+}
+
+/* حالت 3: خطا در اتصال */
+.mgs-status-error {
+    background: #fcf0f1;
+    border: 1px solid #d63638;
+    color: #d63638;
+}
+
+.mgs-status-error i {
+    font-size: 1.25rem;
+}
+
+@keyframes mgsSpin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+/* ===== ویزارد (Stepper) با انیمیشن پیشرفته ===== */
+.mgs-stepper {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.mgs-step {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    position: relative;
+    padding-bottom: 24px;
+}
+
+.mgs-step-ic{
+    width: 0.8rem;
+    height: 0.8rem;
+    display: none;
+}
+
+.mgs-step:last-child {
+    padding-bottom: 0;
+}
+
+/* خط اتصال بین مراحل (با گرادیان متحرک) */
+.mgs-step::after {
+    content: '';
+    position: absolute;
+    right: 15px;
+    top: 32px;
+    bottom: 0;
+    width: 2px;
+    background: #f0f0f1;
+    transition: background 0.3s ease;
+}
+
+.mgs-step:last-child::after {
+    display: none;
+}
+
+/* خط اتصال بین مراحل تکمیل شده و فعال (گرادیان) */
+.mgs-step-completed::after,
+.mgs-step-active::after {
+    background: linear-gradient(180deg, #00a32a, var(--mgs-primary-color));
+}
+
+.mgs-step-indicator {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.875rem;
+    flex-shrink: 0;
+    z-index: 1;
+}
+
+.mgs-step-info {
+    flex: 1;
+}
+
+.mgs-step-title {
+    font-size: 0.8125rem;
+    font-weight: 600;
+    color: #646970;
+}
+
+/* مرحله تکمیل شده */
+.mgs-step-completed .mgs-step-indicator {
+    background: #00a32a;
+    color: white;
+    box-shadow: 0 2px 8px rgba(0, 163, 42, 0.3);
+}
+
+.mgs-step-completed .mgs-step-title {
+    color: #00a32a;
+}
+
+.mgs-step-completed .mgs-step-ic.mg-alone-tick-icon {
+    background-color: white;
+    display: block;
+}
+
+.mgs-step-active .mgs-step-ic.mgs-refresh-icon {
+    display: block;
+    background-color: white;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+    width: 1rem;
+    height: 1rem;
+}
+
+/* مرحله فعال (در حال انجام با پالس) */
+.mgs-step-active .mgs-step-indicator {
+    background: var(--mgs-primary-color);
+    color: white;
+    box-shadow: var(--mgs-primary-box-shadow);
+}
+
+.mgs-step-active .mgs-step-title {
+    color: var( --mgs-primary-color );
+}
+
+/* مرحله در انتظار */
+.mgs-step-pending .mgs-step-indicator {
+    background: #f0f0f1;
+    color: #a7aaad;
+}
+
+.mgs-step-pending .mgs-step-title {
+    color: #a7aaad;
+}
+
+/* ===== دکمه تست اتصال ===== */
+.mgs-test-connection {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.mgs-btn-test {
+    background: var(--mgs-primary-color);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.mgs-btn-test:hover {
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: var(--mgs-primary-box-shadow-hover);
+}
+
+.mg-tsc-ic {
+    width: 0.9rem;
+    height: 0.9rem;
+    background-color: white;
+}
+
+/* ===== ریسپانسیو ===== */
+@media (max-width: 900px) {
+    .mgs-form-body-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .mgs-form-wrapper {
+        padding: 20px;
+    }
+
+    .mgs-form-actions {
+        flex-direction: column;
+    }
+
+    .mgs-btn {
+        width: 100%;
+        justify-content: center;
+    }
+}

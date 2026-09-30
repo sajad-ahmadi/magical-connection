@@ -1,0 +1,687 @@
+.mgs-cron-job {
+    flex-basis: 100%;
+    height: fit-content;
+}
+
+.mgs-cron-job .mgs-content {
+    flex: 1;
+    padding: 1.875rem;
+    max-width: 85rem;
+    margin: 0 auto;
+}
+
+.mgs-cron-job .mgs-page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
+    border: 1px solid #f0f0f0;
+}
+
+.mgs-cron-job .mgs-header-left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.mgs-cron-job .mgs-rcn-ic {
+    display: block;
+    width: .95rem;
+    height: .95rem;
+    background-color: white;
+}
+
+.mgs-cron-job .mgs-status-label {
+    font-size: 0.875rem;
+    color: #666;
+    cursor: default;
+}
+
+.mgs-cron-job .mgs-status-active {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #28a745;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    cursor: default;
+}
+
+.mgs-cron-job .mgs-status-de-active {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #e33535;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    cursor: default;
+}
+
+.mgs-cron-job .mgs-header-icon {
+    font-size: 2rem;
+    background: #eaf4ff;
+    padding: 0.75rem;
+    border-radius: 12px;
+}
+
+.mgs-cron-job .mgs-stats-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.mgs-cron-job .mgs-stat-card {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    border: 1px solid #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s ease;
+    animation: mgsFadeIn 0.5s ease forwards;
+    opacity: 0;
+}
+
+.mgs-cron-job .mgs-stat-card:nth-child(1) { animation-delay: 0.1s; }
+.mgs-cron-job .mgs-stat-card:nth-child(2) { animation-delay: 0.2s; }
+.mgs-cron-job .mgs-stat-card:nth-child(3) { animation-delay: 0.3s; }
+.mgs-cron-job .mgs-stat-card:nth-child(4) { animation-delay: 0.4s; }
+
+.mgs-cron-job .mgs-stat-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.mgs-cron-job .mgs-stat-info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.mgs-cron-job .mgs-stat-label {
+    font-size: 0.8125rem;
+    color: #666;
+    cursor: default;
+}
+
+.mgs-cron-job .mgs-stat-value {
+    font-size: 1.35rem;
+    font-weight: 600;
+    color: #333;
+    margin: 0.5rem;
+    cursor: default;
+}
+
+.mgs-cron-job .mgs-stat-value small {
+    font-size: 0.8125rem;
+    font-weight: 500;
+    color: #888;
+}
+
+.mgs-cron-job .mgs-stat-desc {
+    font-size: 0.75rem;
+    color: #999;
+    cursor: default;
+}
+
+.mgs-cron-job .mgs-stat-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+}
+
+.mgs-cron-job .mgs-sd-ic {
+    display: block;
+    width: 1.45rem;
+    height: 1.45rem;
+}
+
+.mgs-cron-job .mgs-icon-orange { background: #fff4e5; }
+.mgs-cron-job .mgs-icon-orange .mgs-sd-ic {
+    background-color: #f39c12;
+}
+.mgs-cron-job .mgs-icon-purple { background: #f3e8ff; }
+.mgs-cron-job .mgs-icon-purple .mgs-sd-ic {
+    background-color: #9b59b6;
+}
+.mgs-cron-job .mgs-icon-blue { background: #eaf4ff; }
+.mgs-cron-job .mgs-icon-blue .mgs-sd-ic {
+    background-color: #007bff;
+}
+.mgs-cron-job .mgs-icon-green { background: #e6fff0; }
+.mgs-cron-job .mgs-icon-green .mgs-sd-ic {
+    background-color: #28a745;
+}
+
+.mgs-cron-job .mgs-two-columns {
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+    gap: 1.5rem;
+    align-items: start;
+    margin-top: 1.5rem;
+}
+
+.mgs-cron-job .mgs-card {
+    background: white;
+    border-radius: 12px;
+    padding: 24px;
+    border: 1px solid #f0f0f0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
+}
+
+.mgs-cron-job .mgs-card:hover {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.mgs-cron-job .mgs-card-title {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+    cursor: default;
+}
+
+.mgs-cron-job .mgs-alert-success {
+    background: #e6fff0;
+    border: 1px solid #b8e6bf;
+    border-radius: 10px;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #28a745;
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+    cursor: default;
+}
+
+.mgs-cron-job .mgs-alert-danger {
+    background: #ffe6e6;
+    border: 1px solid #e6b8b8;
+    border-radius: 10px;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #a72828;
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+    cursor: default;
+}
+
+.mgs-cron-job .mgs-timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.mgs-cron-job .mgs-timeline-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 16px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    border: 1px solid #f1f1f1;
+    transition: all 0.3s ease;
+}
+
+.mgs-cron-job .mgs-timeline-item:hover {
+    background: #eaf4ff;
+    border-color: #c5d9ed;
+}
+
+.mgs-cron-job .mgs-timeline-label {
+    font-size: 0.875rem;
+    color: #666;
+    font-weight: 600;
+    cursor: default;
+}
+
+.mgs-cron-job .mgs-timeline-value {
+    font-size: 0.875rem;
+    color: #333;
+    font-weight: 600;
+    cursor: default;
+}
+
+.mgs-cron-job .mgs-er-ic {
+    width: 1.2rem;
+    height: 1.2rem;
+    display: block;
+    background-color: #999;
+}
+
+.mgs-cron-job .mgs-nr-ic {
+    width: 1rem;
+    height: 1rem;
+    display: block;
+    background-color: #999;
+}
+
+.mgs-cron-job .mgs-timeline-value small {
+    font-size: 0.75rem;
+    color: #999;
+}
+
+.mgs-cron-job .mgs-timeline-icon {
+    color: #999;
+}
+
+.mgs-cron-job .mgs-timeline-current {
+    background: #eaf4ff;
+    border-color: #c5d9ed;
+}
+
+.mgs-cron-job .mgs-current-badge.success {
+    background: #28a745;
+    color: white;
+    font-size: 0.6875rem;
+    padding: 4px 8px;
+    border-radius: 20px;
+    font-weight: 600;
+    cursor: default;
+}
+
+.mgs-cron-job .mgs-current-badge.failed {
+    background: #e64747;
+    color: white;
+    font-size: 0.6875rem;
+    padding: 4px 8px;
+    border-radius: 20px;
+    font-weight: 600;
+    cursor: default;
+}
+
+.mgs-cron-job .mgs-lsc-ic {
+    background-color: #28a745;
+    width: 1.2rem;
+    height: 1.2rem;
+    display: block;
+}
+
+.mgs-cron-job .mgs-lwc-ic {
+    background-color: #e64747;
+    width: 1.2rem;
+    height: 1.2rem;
+    display: block;
+}
+
+.mgs-cron-job .mgs-timeline-list {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.mgs-cron-job .mgs-timeline-times {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 8px;
+    width: 100%;
+}
+
+.mgs-cron-job .mgs-timeline-times span {
+    font-size: 0.75rem;
+    color: #666;
+    background: white;
+    padding: 4px 8px;
+    border-radius: 6px;
+    text-align: center;
+    border: 1px solid #f1f1f1;
+    transition: all 0.2s;
+}
+
+.mgs-cron-job .mgs-timeline-times span:hover {
+    color: var(--mgs-primary-color);
+    border-color: var(--mgs-primary-color);
+}
+
+.mgs-cron-job .mgs-preview-actions {
+    display: flex;
+    gap: 12px;
+    margin-top: 16px;
+}
+
+.mgs-cron-job .mgs-cc-ic {
+    display: block;
+    width: 1.1rem;
+    height: 1.1rem;
+    background-color: #d63031;
+}
+
+.mgs-cron-job .mgs-scl-ic {
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    background-color: black;
+    transition: all 0.2s ease;
+}
+
+.mgs-cron-job .mgs-btn-outline {
+    background: white;
+    border: 1px solid #ddd;
+    color: #333;
+    padding: 10px 16px;
+    flex: 1;
+    justify-content: center;
+}
+
+.mgs-cron-job .mgs-btn-outline:hover {
+    background: #f5f5f5;
+    border-color: #007bff;
+    color: #007bff;
+}
+
+.mgs-cron-job .mgs-btn-outline:hover .mgs-scl-ic {
+    background-color: #007bff;
+}
+
+.mgs-cron-job .mgs-btn-danger-outline {
+    background: #fff5f5;
+    border: 1px solid #ffcccc;
+    color: #d63031;
+    padding: 10px 12px;
+    flex: 1;
+    justify-content: center;
+}
+
+.mgs-cron-job .mgs-btn-danger-outline:hover {
+    background: #ffe5e5;
+}
+
+.mgs-cron-job .mgs-settings-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.mgs-cron-job .mgs-settings-header .mgs-card-title {
+    margin-bottom: 0;
+    cursor: default;
+}
+
+.mgs-cron-job .mgs-countdown-bar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.75rem;
+    color: #646970;
+    background: #f6f7f7;
+    padding: 6px 12px;
+    border-radius: 20px;
+    border: 1px solid #f0f0f1;
+    cursor: default;
+}
+
+.mgs-cron-job .mgs-countdown-track {
+    width: 60px;
+    height: 6px;
+    background: #e0e0e0;
+    border-radius: 10px;
+    overflow: visible;
+    position: relative;
+    cursor: pointer;
+}
+
+.mgs-cron-job .mgs-countdown-fill {
+    width: 60%;
+    height: 100%;
+    background: var( --mgs-primary-gradient-color );
+    border-radius: 10px;
+    animation: mgsLinearCountdown 5s linear infinite;
+}
+
+@keyframes mgsLinearCountdown {
+    from { width: 100%; }
+    to { width: 0%; }
+}
+
+.mgs-cron-job .mgs-countdown-wrap:hover .mgs-countdown-fill {
+    animation-play-state: paused;
+}
+
+.mgs-cron-job .mgs-countdown-fill {
+    width: 60%;
+    height: 100%;
+    background: linear-gradient(90deg, #007bff, #00b4d8);
+    border-radius: 10px;
+    animation: mgsLinearCountdown 5s linear infinite;
+}
+
+.mgs-cron-job .mgs-has-tooltip:hover .mgs-countdown-fill {
+    animation-play-state: paused;
+}
+
+@keyframes mgsLinearCountdown {
+    from { width: 100%; }
+    to { width: 0%; }
+}
+
+.mgs-cron-job .mgs-setting-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.mgs-cron-job .mgs-setting-row:last-of-type {
+    border-bottom: none;
+}
+
+.mgs-cron-job .mgs-setting-info {
+    flex: 1;
+    margin-left: 16px;
+}
+
+.mgs-cron-job .mgs-setting-info label {
+    font-size: 0.9375rem;
+    font-weight: 600;
+    color: #333;
+    display: block;
+    margin-bottom: 4px;
+    cursor: default;
+}
+
+.mgs-cron-job .mgs-setting-info p {
+    font-size: 0.8125rem;
+    color: #888;
+    max-width: 400px;
+    cursor: default;
+}
+
+.mgs-cron-job .mg-nrc-ic {
+    display: block;
+    width: 0.9rem;
+    height: 0.9rem;
+    background-color: #999;
+}
+
+.mgs-cron-job .mgs-input {
+    border: none;
+    outline: none;
+    font-family: inherit;
+    font-size: 0.875rem;
+    color: #333;
+    width: 80px;
+}
+
+.mgs-cron-job .mgs-input-group:focus-within {
+    border-color: #007bff;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.1);
+}
+
+.mgs-cron-job .mgs-input-suffix {
+    font-size: 0.8125rem;
+    color: #888;
+    cursor: default;
+}
+
+.mgs-cron-job .mgs-input-icon {
+    color: #999;
+    font-size: 0.875rem;
+}
+
+.mgs-cron-job .mgs-select-wrapper {
+    position: relative;
+    width: 120px;
+}
+
+.mgs-cron-job .mgs-select {
+    width: 100% !important;
+    padding: 0 12px!important;
+    border: none!important;
+    border-radius: 8px!important;
+    font-family: inherit!important;
+    font-size: 0.875rem!important;
+    color: #333!important;
+    background: white!important;
+    appearance: none!important;
+    cursor: pointer!important;
+}
+
+.mgs-cron-job .mgs-settings-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    padding-top: 16px;
+}
+
+.mgs-cron-job .mgs-how-it-works {
+    margin-top: 1.5rem;
+}
+
+.mgs-cron-job .mgs-steps {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+}
+
+.mgs-cron-job .mgs-step {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px;
+    background: #f9f9f9;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+.mgs-cron-job .mgs-step:hover {
+    background: white;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transform: translateY(-2px);
+}
+
+.mgs-cron-job .mgs-step-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 1.125rem;
+    flex-shrink: 0;
+}
+
+.mgs-cron-job .mgs-step-1 { background: #eaf4ff; color: #007bff; }
+.mgs-cron-job .mgs-step-2 { background: #e6fff0; color: #28a745; }
+.mgs-cron-job .mgs-step-3 { background: #fff4e5; color: #f39c12; }
+.mgs-cron-job .mgs-step-4 { background: #f3e8ff; color: #9b59b6; }
+
+.mgs-cron-job .mgs-step-info {
+    flex: 1;
+}
+
+.mgs-cron-job .mgs-step-info strong {
+    font-size: 0.875rem;
+    color: #333;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.mgs-cron-job .mgs-step-info p {
+    font-size: 0.75rem;
+    color: #888;
+}
+
+.mgs-cron-job .mgs-step-arrow {
+    color: #ccc;
+    font-size: 0.875rem;
+}
+
+@media (max-width: 1200px) {
+    .mgs-cron-job .mgs-two-columns {
+        grid-template-columns: 1fr;
+    }
+
+    .mgs-cron-job .mgs-stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .mgs-cron-job .mgs-steps {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .mgs-cron-job .mgs-sidebar {
+        width: 4.375rem;
+    }
+
+    .mgs-cron-job .mgs-sidebar-header,
+    .mgs-cron-job .mgs-sidebar-footer {
+        display: none;
+    }
+
+    .mgs-cron-job .mgs-menu-item {
+        justify-content: center;
+        padding: 0.625rem;
+    }
+
+    .mgs-cron-job .mgs-menu-item span,
+    .mgs-cron-job .mgs-menu-title,
+    .mgs-cron-job .mgs-badge,
+    .mgs-cron-job .mgs-user-badge {
+        display: none;
+    }
+
+    .mgs-cron-job .mgs-page-header {
+        flex-direction: column;
+        gap: 16px;
+        align-items: flex-start;
+    }
+
+    .mgs-cron-job .mgs-stats-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .mgs-cron-job .mgs-steps {
+        grid-template-columns: 1fr;
+    }
+
+    .mgs-cron-job .mgs-setting-row {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    .mgs-cron-job .mgs-input-group,
+    .mgs-cron-job .mgs-select-wrapper {
+        width: 100%;
+    }
+}

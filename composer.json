@@ -1,0 +1,13 @@
+{
+  "name": "code-art/magical-connecion",
+  "autoload": {
+    "psr-4": {
+      "MagicalConnection\\App\\": "./includes/",
+      "MagicalConnection\\Core\\": "./includes/Core/",
+      "MagicalConnection\\Support\\": "./includes/Support/",
+      "MagicalConnection\\Database\\": "./includes/Database/",
+      "MagicalConnection\\Modules\\": "./includes/Modules/"
+    }
+  },
+  "require": {}
+}
