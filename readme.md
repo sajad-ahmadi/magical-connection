@@ -95,9 +95,8 @@ Go to **Magical Connection → Your Connections → Add New Connection**.
 
 1. Click **Download API** in the connection form.
 2. Upload `http-api.zip` to your remote server's `public_html/`.
-3. Extract it and open `http-api/config.php`.
+3. Extract it and open `http-api/index.php`.
 4. Paste your API Key, save, set permissions to `644`.
-5. Visit `https://your-domain.com/http-api/check.php` to verify.
 
 > 💡 **No external service.** The API runs on **your own server**. This plugin never contacts our servers or any third-party service.
 
