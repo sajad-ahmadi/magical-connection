@@ -22,7 +22,7 @@
 
 Built with **Vue 3** for a fast, modern admin experience.
 
----
+--- 
 
 ## 🎯 Features
 

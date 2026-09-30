@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/./includes" isTestSource="false" packagePrefix="MagicalConnection\App\" />
+      <sourceFolder url="file://$MODULE_DIR$/./includes/Core" isTestSource="false" packagePrefix="MagicalConnection\Core\" />
+      <sourceFolder url="file://$MODULE_DIR$/./includes/Database" isTestSource="false" packagePrefix="MagicalConnection\Database\" />
+      <sourceFolder url="file://$MODULE_DIR$/./includes/Modules" isTestSource="false" packagePrefix="MagicalConnection\Modules\" />
+      <sourceFolder url="file://$MODULE_DIR$/./includes/Support" isTestSource="false" packagePrefix="MagicalConnection\Support\" />
+      <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
