@@ -15,7 +15,6 @@
 </div>
 
 ---
-
 ## ✨ What Is This?
 
 **Magical Connection** is a WordPress plugin that lets you **offload your media library** to a remote server — via **FTP** or a **self-hosted HTTP API** — and bring files back whenever you need. Every database reference to a transferred file is **automatically updated**, so your posts, pages, and widgets keep working without broken links.
