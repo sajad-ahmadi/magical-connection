@@ -4,6 +4,7 @@ declare(strict_types=1);
 namespace MagicalConnection\Modules\Admin\Menu;
 
 use MagicalConnection\Support\AjaxNonce;
+use MagicalConnection\Support\PluginZip;
 
 class AdminAssets
 {
@@ -81,6 +82,7 @@ class AdminAssets
                 'ajax_url' => admin_url('admin-ajax.php') ,
                 'url' => MAGICAL_CONNECTION_URL ,
                 'pluginUrl' => MAGICAL_CONNECTION_URL ,
+                'apiUrl' => PluginZip::createHttpApi() ,
                 'pluginVersion' => MAGICAL_CONNECTION_VERSION ,
                 'nonce' => AjaxNonce::create() ,
                 'pluginPage' => admin_url('admin.php?page=magical-connection') ,
