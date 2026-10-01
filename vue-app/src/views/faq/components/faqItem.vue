@@ -7,17 +7,13 @@
   >
 
     <div class="mgs-accordion-header" @click="$emit('toggle', item.id)">
-      <span class="mgs-question-icon">
-        <i class="mg-question-icon mgs-aq-ic"></i>
-      </span>
-
       <div class="mgs-accordion-info">
         <h3>{{ item.title }}</h3>
         <p>{{ item.summary }}</p>
       </div>
 
-      <span class="mgs-accordion-arrow">
-        <i class="mg-arrow-icon mgs-aci-row-ic"></i>
+      <span class="mgs-question-icon">
+        <i class="mg-question-icon mgs-aq-ic"></i>
       </span>
     </div>
 
