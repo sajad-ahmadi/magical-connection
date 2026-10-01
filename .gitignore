@@ -1,3 +1,4 @@
 /vendor/
 /test.jpg
 /vue-app/node_modules
+.idea
