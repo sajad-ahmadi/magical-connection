@@ -123,7 +123,9 @@
     padding: 20px 24px;
     background: transparent;
     border: none;
+    width: 100%;
     cursor: pointer;
+    text-align: right;
     transition: background-color 0.3s ease;
 }
 
