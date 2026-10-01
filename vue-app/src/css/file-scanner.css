@@ -559,7 +559,7 @@
 }
 
 .mgs-file-table th {
-    text-align: right;
+    text-align: start;
     padding: 0.875rem;
     font-weight: 600;
     color: #666;
@@ -642,8 +642,6 @@
     color: #333;
     display: block;
     margin-bottom: 0.5rem;
-    direction: ltr;
-    text-align: end;
 }
 
 .mgs-bar-container {
