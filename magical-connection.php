@@ -19,7 +19,7 @@ defined('ABSPATH') || exit;
 
 define('MAGICAL_CONNECTION_PATH', plugin_dir_path(__FILE__));
 define('MAGICAL_CONNECTION_URL', plugin_dir_url(__FILE__));
-define('MAGICAL_CONNECTION_VERSION', "3.4.2");
+define('MAGICAL_CONNECTION_VERSION', "1.0.0");
 define('MAGICAL_CONNECTION_PATH_TEMPLATE', plugin_dir_path(__FILE__) . "/includes/template");
 define('MAGICAL_CONNECTION_TEXT_DOMAIN', 'magical-connection');
 define('MAGICAL_LANG_PATH' , dirname(plugin_basename(__FILE__)) . '/languages');
