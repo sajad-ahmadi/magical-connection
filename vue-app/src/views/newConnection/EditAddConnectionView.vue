@@ -82,7 +82,7 @@ const {
 const { start: startLoading, stop: stopLoading } = useLoading()
 
 const httpApiDownloadUrl =
-    (MagicalConnection?.pluginUrl ?? '') + 'resources/http-api.zip'
+    (MagicalConnection?.apiUrl ?? '')
 
 function handleSave(event) {
   saveConnectionBtn(event)
