@@ -27,31 +27,25 @@ Built with **Vue 3** for a fast, modern admin experience.
 
 Get a closer look at **Magical Connection** and explore its modern WordPress admin interface.
 
-<div align="center">
-
-### 🔌 Dashboard & Connections
-
-<img src="https://code-art.ir/wp-content/uploads/2026/10/3.png" alt="Magical Connection dashboard and server connections" width="100%">
-
-*Manage your remote servers and connection settings from a centralized dashboard.*
-
-<br>
-
-### ⏰ Automated Transfers with Cron Jobs
-
-<img src="https://code-art.ir/wp-content/uploads/2026/10/2.png" alt="Magical Connection automated media transfers using cron jobs" width="100%">
-
-*Automate WordPress media transfers to remote servers with scheduled cron jobs, configurable intervals, and retry options — keeping your media offloading workflow running with minimal manual intervention.*
-
-<br>
-
-### 🔍 File Scanner & Management
-
-<img src="https://code-art.ir/wp-content/uploads/2026/10/1.png" alt="Magical Connection file scanner and media management" width="100%">
-
-*Analyze your media library and simplify file transfer and restoration workflows.*
-
-</div>
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <img src="https://code-art.ir/wp-content/uploads/2026/10/3.png" alt="Magical Connection dashboard and server connections" width="100%">
+      <h3>🔌 Dashboard & Connections</h3>
+      <p>Manage your remote servers and connection settings from a centralized dashboard.</p>
+    </td>
+    <td align="center" width="33%">
+      <img src="https://code-art.ir/wp-content/uploads/2026/10/2.png" alt="Magical Connection automated media transfers using cron jobs" width="100%">
+      <h3>⏰ Automated Transfers with Cron Jobs</h3>
+      <p>Automate WordPress media transfers to remote servers with scheduled cron jobs, configurable intervals, and retry options.</p>
+    </td>
+    <td align="center" width="33%">
+      <img src="https://code-art.ir/wp-content/uploads/2026/10/1.png" alt="Magical Connection file scanner and media management" width="100%">
+      <h3>🔍 File Scanner & Management</h3>
+      <p>Analyze your media library and simplify file transfer and restoration workflows.</p>
+    </td>
+  </tr>
+</table>
 
 ---
 
