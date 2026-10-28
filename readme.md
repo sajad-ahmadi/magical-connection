@@ -23,6 +23,38 @@ Built with **Vue 3** for a fast, modern admin experience.
 
 ---
 
+## 🖥️ Screenshots
+
+Get a closer look at **Magical Connection** and explore its modern WordPress admin interface.
+
+<div align="center">
+
+### 🔌 Dashboard & Connections
+
+<img src="https://code-art.ir/wp-content/uploads/2026/10/3.png" alt="Magical Connection dashboard and server connections" width="100%">
+
+*Manage your remote servers and connection settings from a centralized dashboard.*
+
+<br>
+
+### ⏰ Automated Transfers with Cron Jobs
+
+<img src="https://code-art.ir/wp-content/uploads/2026/10/2.png" alt="Magical Connection automated media transfers using cron jobs" width="100%">
+
+*Automate WordPress media transfers to remote servers with scheduled cron jobs, configurable intervals, and retry options — keeping your media offloading workflow running with minimal manual intervention.*
+
+<br>
+
+### 🔍 File Scanner & Management
+
+<img src="https://code-art.ir/wp-content/uploads/2026/10/1.png" alt="Magical Connection file scanner and media management" width="100%">
+
+*Analyze your media library and simplify file transfer and restoration workflows.*
+
+</div>
+
+---
+
 ## 🎯 Features
 
 - 🔁 **Two connection types** — FTP and HTTP (self-hosted API).
