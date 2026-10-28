@@ -251,7 +251,7 @@ See [LICENSE](LICENSE) for the full text.
 
 - 🐛 **Bug reports:** [GitHub Issues](https://github.com/your-username/magical-connection/issues)
 - 💬 **Discussions:** [GitHub Discussions](https://github.com/your-username/magical-connection/discussions)
-- 📧 **Email:** your-email@example.com
+- 📧 **Email:** sajad.ahmawdi@example.com
 
 ---
 
